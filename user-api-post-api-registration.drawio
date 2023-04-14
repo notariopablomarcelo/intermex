@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T20:15:21.337Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="0ZgG5vOVzmJbtYIX4IYZ" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T20:26:37.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zfux18sArYDGm-QDV2oD" version="21.1.7" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
-    <mxGraphModel dx="1902" dy="1423" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1401" dy="1615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,8 +278,8 @@
         <mxCell id="08USlgKBRLxsxkHtnpeR-114" value="&lt;font color=&quot;#000000&quot;&gt;Identity Server API&lt;br&gt;PATCH&lt;br&gt;api / user / { id } / password&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="284" y="-434" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="08USlgKBRLxsxkHtnpeR-115" value="&lt;font color=&quot;#000000&quot;&gt;Identity Server API&lt;br&gt;POST&lt;br&gt;api / userpreviouspassword&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="284" y="-345" width="200" height="60" as="geometry" />
+        <mxCell id="08USlgKBRLxsxkHtnpeR-115" value="&lt;font color=&quot;#000000&quot;&gt;Handler&lt;br&gt;CreateUserInOnlineCommand&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-5" y="-908" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="08USlgKBRLxsxkHtnpeR-117" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="08USlgKBRLxsxkHtnpeR-114" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -306,7 +306,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MLKeYVqBa8RRxU8ndWpH-114" value="&lt;br&gt;WebAgent&lt;br&gt;WebAgent_Users" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="18" y="-603" width="123" height="92" as="geometry" />
+          <mxGeometry x="-5" y="-1040" width="123" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="MLKeYVqBa8RRxU8ndWpH-115" value="&lt;font color=&quot;#000000&quot;&gt;Identity Server API&lt;br&gt;POST&lt;br&gt;api / userpreviouspassword&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="284" y="-353" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MLKeYVqBa8RRxU8ndWpH-116" value="&lt;font color=&quot;#000000&quot;&gt;Identity Server API&lt;br&gt;POST&lt;br&gt;api / user&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="263" y="-908" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MLKeYVqBa8RRxU8ndWpH-117" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223" y="-1017" as="sourcePoint" />
+            <mxPoint x="318" y="-1017" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLKeYVqBa8RRxU8ndWpH-118" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="08USlgKBRLxsxkHtnpeR-115" target="MLKeYVqBa8RRxU8ndWpH-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="212" y="-817" as="sourcePoint" />
+            <mxPoint x="307" y="-817" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
