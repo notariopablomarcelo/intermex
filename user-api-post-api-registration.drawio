@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-16T02:39:58.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="W0h2ghcLWr5GkSVvHzSc" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-16T02:45:14.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nnswNMEp3WTYA_yj2RM4" version="21.1.8" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1240" dy="2309" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -79,10 +79,10 @@
             <mxPoint x="22" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MUhubDVM9BwMi47_hHYt-120" value="WebAgentUserId&lt;br&gt;UserName&lt;br&gt;Password&lt;br&gt;Phone&lt;br&gt;PartnerId&lt;br&gt;ChannelId" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MUhubDVM9BwMi47_hHYt-120" value="WebAgentUserId = IntermexId&lt;br&gt;UserName&lt;br&gt;Password&lt;br&gt;Phone&lt;br&gt;PartnerId&lt;br&gt;ChannelId" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-123" y="-1025" width="181" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="MUhubDVM9BwMi47_hHYt-121" value="Id&lt;br&gt;NormalizedUserName&lt;br&gt;Email&lt;br&gt;UserName&lt;br&gt;PhoneNumber&lt;br&gt;SecurityStamp&lt;br&gt;PasswordHash&lt;br&gt;NormalizedEmail&lt;br&gt;PartnerId&lt;br&gt;&lt;br&gt;EmailConfirmed = true&lt;br&gt;PhoneNumberConfirmed = false&lt;br&gt;TwoFactorEnabled = false&lt;br&gt;LockoutEnabled = false&lt;br&gt;AccessFailedCount = 0" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MUhubDVM9BwMi47_hHYt-121" value="Id&lt;br&gt;Email&lt;br&gt;NormalizedEmail&lt;br&gt;NormalizedUserName&lt;br&gt;UserName&lt;br&gt;PhoneNumber&lt;br&gt;SecurityStamp&lt;br&gt;PasswordHash&lt;br&gt;PartnerId&lt;br&gt;&lt;br&gt;EmailConfirmed = true&lt;br&gt;PhoneNumberConfirmed = false&lt;br&gt;TwoFactorEnabled = false&lt;br&gt;LockoutEnabled = false&lt;br&gt;AccessFailedCount = 0" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="-1157" width="190" height="231" as="geometry" />
         </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-122" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MUhubDVM9BwMi47_hHYt-120">
