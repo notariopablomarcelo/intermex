@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-16T00:30:22.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="svkCccrDSdI9_OTKTaXR" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-16T01:01:08.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="CqNAr9qWeZQGGnX8gAIm" version="21.1.8" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1324" dy="2380" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -293,14 +293,14 @@
         <mxCell id="MLKeYVqBa8RRxU8ndWpH-119" value="&lt;br&gt;Online&lt;br&gt;Users" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="529" y="-924" width="123" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="MLKeYVqBa8RRxU8ndWpH-120" value="&lt;br&gt;&lt;br&gt;WireDataEntry&lt;br&gt;SP&lt;br&gt;WebApi_UserRegistration_WithDataValidResult_WhiteLabel_v3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-5" y="-810" width="397" height="92" as="geometry" />
+        <mxCell id="MLKeYVqBa8RRxU8ndWpH-120" value="&lt;br&gt;&lt;br&gt;WireDataEntry&lt;br&gt;SP&lt;br&gt;WebApi_UserRegistration_WithDataValidResult_WhiteLabel_v3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1" y="-357" width="397" height="92" as="geometry" />
         </mxCell>
         <mxCell id="MLKeYVqBa8RRxU8ndWpH-121" value="&lt;br&gt;WireSecurity&lt;br&gt;WebApi_TrustedDevices" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-5" y="-687" width="158" height="92" as="geometry" />
+          <mxGeometry x="24" y="-49" width="158" height="92" as="geometry" />
         </mxCell>
         <mxCell id="MLKeYVqBa8RRxU8ndWpH-122" value="&lt;br&gt;WebAgent&lt;br&gt;Security.UserRoles" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-5" y="-571" width="123" height="92" as="geometry" />
+          <mxGeometry x="24" y="67" width="123" height="92" as="geometry" />
         </mxCell>
         <mxCell id="MLKeYVqBa8RRxU8ndWpH-123" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="MLKeYVqBa8RRxU8ndWpH-116" target="MLKeYVqBa8RRxU8ndWpH-119" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -308,9 +308,9 @@
             <mxPoint x="328" y="-1007" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLKeYVqBa8RRxU8ndWpH-124" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="MLKeYVqBa8RRxU8ndWpH-114" edge="1" source="MUhubDVM9BwMi47_hHYt-125">
+        <mxCell id="MLKeYVqBa8RRxU8ndWpH-124" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="MLKeYVqBa8RRxU8ndWpH-114" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-147" y="-1136" as="sourcePoint" />
+            <mxPoint x="-215" y="-1136" as="sourcePoint" />
             <mxPoint x="-50" y="-1139" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -319,9 +319,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLKeYVqBa8RRxU8ndWpH-125" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.1;exitY=0.676;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="08USlgKBRLxsxkHtnpeR-115" edge="1" source="MUhubDVM9BwMi47_hHYt-125">
+        <mxCell id="MLKeYVqBa8RRxU8ndWpH-125" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="08USlgKBRLxsxkHtnpeR-115" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-119" y="-878" as="sourcePoint" />
+            <mxPoint x="-218" y="-878" as="sourcePoint" />
             <mxPoint x="-100" y="-888" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -339,10 +339,10 @@
             <mxPoint x="561" y="-573" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MUhubDVM9BwMi47_hHYt-118" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MLKeYVqBa8RRxU8ndWpH-114" target="MUhubDVM9BwMi47_hHYt-125">
+        <mxCell id="MUhubDVM9BwMi47_hHYt-118" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MLKeYVqBa8RRxU8ndWpH-114">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="18" y="-1249" as="sourcePoint" />
-            <mxPoint x="-146" y="-1104" as="targetPoint" />
+            <mxPoint x="-218" y="-1104" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-119" value="IntermexId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MUhubDVM9BwMi47_hHYt-118">
@@ -372,10 +372,72 @@
           <mxGeometry x="-337" y="-1252" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-233" y="-1191" width="10" height="463" as="geometry" />
+          <mxGeometry x="-233" y="-1191" width="10" height="982" as="geometry" />
         </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-126" value="- Del Mapper con InitModel:&lt;br&gt;ChannelId ?? 0&lt;br&gt;SenderId ?? 0&lt;br&gt;SndFirstName&lt;br&gt;SndLastName1&lt;br&gt;SndLastName2&lt;br&gt;SndNoSecLastName&lt;br&gt;SndAddress&lt;br&gt;SndCountry&lt;br&gt;SndState&lt;br&gt;SndCity&lt;br&gt;SndZipCode&lt;br&gt;SndCellPhone&lt;br&gt;FacebookId&lt;br&gt;RegistrationIPAddress&lt;br&gt;LoyaltyCardNumber&lt;br&gt;SndLanguageId&lt;br&gt;AuthyId&lt;br&gt;TermsAndConditions&lt;br&gt;&lt;br&gt;-&lt;br&gt;WebAgentUserId&lt;br&gt;SndAdditionalPhone = &#39;&#39;&lt;br&gt;SndEmail&lt;br&gt;UserPassword ( hashed )&lt;br&gt;Salt&lt;br&gt;SndCitizenship = &#39;&#39;&lt;br&gt;SndDOB = null&lt;br&gt;OptStatus = null&lt;br&gt;RegValid_RequestId = null&lt;br&gt;RegDataValidResult = 1&lt;br&gt;SndNoSecLastName&lt;br&gt;SndLastName2" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="-888" width="181" height="490" as="geometry" />
+          <mxGeometry x="-198" y="-855" width="181" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-127" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MLKeYVqBa8RRxU8ndWpH-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-214" y="-311" as="sourcePoint" />
+            <mxPoint x="-13" y="-311.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-128" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MUhubDVM9BwMi47_hHYt-127">
+          <mxGeometry x="0.2632" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-130" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MUhubDVM9BwMi47_hHYt-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-22" y="-914" as="sourcePoint" />
+            <mxPoint x="-116" y="-312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-131" value="&lt;br&gt;WireSecurity&lt;br&gt;WebAgent_Users" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="529" y="-498" width="158" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-132" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MLKeYVqBa8RRxU8ndWpH-120" target="MUhubDVM9BwMi47_hHYt-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="224" y="-462" as="sourcePoint" />
+            <mxPoint x="779" y="-710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-134" value="&lt;br&gt;&lt;br&gt;WireTransac&lt;br&gt;SP&lt;br&gt;Senders_Create_CRM_Fase2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="438" y="-267" width="192" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-135" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MLKeYVqBa8RRxU8ndWpH-120" target="MUhubDVM9BwMi47_hHYt-134">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406" y="-301" as="sourcePoint" />
+            <mxPoint x="539" y="-442" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-136" value="&lt;br&gt;WireTransac&lt;br&gt;Comp_SndGroups" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="712" y="-383" width="158" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-137" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MUhubDVM9BwMi47_hHYt-134" target="MUhubDVM9BwMi47_hHYt-136">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406" y="-301" as="sourcePoint" />
+            <mxPoint x="539" y="-442" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-138" value="&lt;br&gt;WireTransac&lt;br&gt;Senders" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="712" y="-267" width="158" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-139" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MUhubDVM9BwMi47_hHYt-134" target="MUhubDVM9BwMi47_hHYt-138">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-211" as="sourcePoint" />
+            <mxPoint x="718" y="-326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-140" value="&lt;br&gt;WireTransac&lt;br&gt;SenderVersions" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="712" y="-152" width="158" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhubDVM9BwMi47_hHYt-141" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MUhubDVM9BwMi47_hHYt-134" target="MUhubDVM9BwMi47_hHYt-140">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-211" as="sourcePoint" />
+            <mxPoint x="716" y="-161" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
