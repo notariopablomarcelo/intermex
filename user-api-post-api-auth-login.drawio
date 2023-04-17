@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T00:17:02.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="3mHTSV4Qy7AFuztBy7AA" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T00:26:45.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="J0Ju68GIuNqVChUTSvWC" version="21.1.8" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="2074" dy="2356" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -62,9 +62,6 @@
         <mxCell id="MUhubDVM9BwMi47_hHYt-125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-233" y="-1314" width="10" height="1339" as="geometry" />
         </mxCell>
-        <mxCell id="MUhubDVM9BwMi47_hHYt-126" value="- Del Mapper con InitModel:&lt;br&gt;ChannelId ?? 0&lt;br&gt;SenderId ?? 0&lt;br&gt;SndFirstName&lt;br&gt;SndLastName1&lt;br&gt;SndLastName2&lt;br&gt;SndNoSecLastName&lt;br&gt;SndAddress&lt;br&gt;SndCountry&lt;br&gt;SndState&lt;br&gt;SndCity&lt;br&gt;SndZipCode&lt;br&gt;SndCellPhone&lt;br&gt;FacebookId&lt;br&gt;RegistrationIPAddress&lt;br&gt;LoyaltyCardNumber&lt;br&gt;SndLanguageId&lt;br&gt;AuthyId&lt;br&gt;TermsAndConditions&lt;br&gt;&lt;br&gt;-&lt;br&gt;WebAgentUserId&lt;br&gt;SndAdditionalPhone = &#39;&#39;&lt;br&gt;SndEmail&lt;br&gt;UserPassword ( hashed )&lt;br&gt;Salt&lt;br&gt;SndCitizenship = &#39;&#39;&lt;br&gt;SndDOB = null&lt;br&gt;OptStatus = null&lt;br&gt;RegValid_RequestId = null&lt;br&gt;RegDataValidResult = 1&lt;br&gt;SndNoSecLastName&lt;br&gt;SndLastName2" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-198" y="-855" width="181" height="490" as="geometry" />
-        </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-127" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="MLKeYVqBa8RRxU8ndWpH-120" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-214" y="-311" as="sourcePoint" />
@@ -76,9 +73,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MUhubDVM9BwMi47_hHYt-130" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MUhubDVM9BwMi47_hHYt-126" edge="1">
+        <mxCell id="MUhubDVM9BwMi47_hHYt-130" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-22" y="-914" as="sourcePoint" />
+            <mxPoint x="-107.5" y="-365" as="sourcePoint" />
             <mxPoint x="-116" y="-312" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -142,12 +139,9 @@
             <mxPoint x="793" y="-255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MUhubDVM9BwMi47_hHYt-142" value="WebAgentUserId = WebAgentUserId&lt;br&gt;WebAgentUserName = SndEmail&lt;br&gt;RegFirstName = SndFirstName&lt;br&gt;RegLastName1 = SndLastName1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RegLastName2 = SndLastName2&lt;br&gt;WebAgentUserCellPhone = SndCellPhone&lt;br&gt;WebAgentyUserLanguageId = SndLanguageId&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RegistrationIPAddress = RegistrationIPAddress&lt;br&gt;RegistrationState = SndState&lt;br&gt;Created = GetDate()&lt;br&gt;SenderId = 0&lt;br&gt;AuthyId&lt;br&gt;StsRegDataValidResult&lt;br&gt;PartnerId&lt;br&gt;ChannelId&lt;br&gt;UserPassword&lt;br&gt;Salt&lt;br&gt;FacebookId&lt;br&gt;TermsAndConditions&lt;br&gt;TermsAndConditionsAcceptedOn&lt;br&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="193" y="-754" width="270" height="303" as="geometry" />
-        </mxCell>
-        <mxCell id="MUhubDVM9BwMi47_hHYt-143" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MUhubDVM9BwMi47_hHYt-142" edge="1">
+        <mxCell id="MUhubDVM9BwMi47_hHYt-143" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-97" y="-355" as="sourcePoint" />
+            <mxPoint x="328" y="-451" as="sourcePoint" />
             <mxPoint x="470" y="-393" as="targetPoint" />
           </mxGeometry>
         </mxCell>
