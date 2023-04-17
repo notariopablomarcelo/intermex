@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T00:53:39.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1s49KfP-pv6Zo0c-iYx1" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T13:15:27.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gR1PxGgyeCB92BXPMixA" version="21.1.8" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
-    <mxGraphModel dx="1834" dy="2356" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="2356" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tjw_QGAWWhNyDeaGo1YC-1" value="Insert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MLKeYVqBa8RRxU8ndWpH-124">
+          <mxGeometry x="-0.1542" y="-2" relative="1" as="geometry">
+            <mxPoint x="4" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MLKeYVqBa8RRxU8ndWpH-125" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="08USlgKBRLxsxkHtnpeR-115" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-218" y="-878" as="sourcePoint" />
@@ -82,7 +87,7 @@
         <mxCell id="MUhubDVM9BwMi47_hHYt-120" value="WebAgentUserId = IntermexId&lt;br&gt;UserName&lt;br&gt;Password&lt;br&gt;Phone&lt;br&gt;PartnerId&lt;br&gt;ChannelId" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-123" y="-1025" width="181" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="MUhubDVM9BwMi47_hHYt-121" value="Id&lt;br&gt;Email&lt;br&gt;NormalizedEmail&lt;br&gt;NormalizedUserName&lt;br&gt;UserName&lt;br&gt;PhoneNumber&lt;br&gt;SecurityStamp&lt;br&gt;PasswordHash&lt;br&gt;PartnerId&lt;br&gt;&lt;br&gt;EmailConfirmed = true&lt;br&gt;PhoneNumberConfirmed = false&lt;br&gt;TwoFactorEnabled = false&lt;br&gt;LockoutEnabled = false&lt;br&gt;AccessFailedCount = 0" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="MUhubDVM9BwMi47_hHYt-121" value="Id&lt;br&gt;Email&lt;br&gt;NormalizedEmail&lt;br&gt;UserName&lt;br&gt;NormalizedUserName&lt;br&gt;PhoneNumber&lt;br&gt;SecurityStamp&lt;br&gt;PasswordHash&lt;br&gt;PartnerId&lt;br&gt;&lt;br&gt;EmailConfirmed = true&lt;br&gt;PhoneNumberConfirmed = false&lt;br&gt;TwoFactorEnabled = false&lt;br&gt;LockoutEnabled = false&lt;br&gt;AccessFailedCount = 0" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="-1157" width="190" height="231" as="geometry" />
         </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-122" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MUhubDVM9BwMi47_hHYt-120" edge="1">
@@ -143,7 +148,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-134" value="&lt;br&gt;&lt;br&gt;WireTransac&lt;br&gt;SP&lt;br&gt;Senders_Create_CRM_Fase2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="515" y="-361" width="192" height="92" as="geometry" />
+          <mxGeometry x="512" y="-357" width="192" height="92" as="geometry" />
         </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-135" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MLKeYVqBa8RRxU8ndWpH-120" target="MUhubDVM9BwMi47_hHYt-134" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -166,7 +171,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-138" value="&lt;br&gt;WireTransac&lt;br&gt;Senders" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-          <mxGeometry x="789" y="-361" width="158" height="92" as="geometry" />
+          <mxGeometry x="791" y="-357" width="158" height="92" as="geometry" />
         </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-139" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MUhubDVM9BwMi47_hHYt-134" target="MUhubDVM9BwMi47_hHYt-138" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -234,6 +239,17 @@
         </mxCell>
         <mxCell id="MUhubDVM9BwMi47_hHYt-158" value="Se crean registros en&lt;br&gt;WebAgent&lt;br&gt;- Security.User&lt;br&gt;- Security.UserRoles&lt;br&gt;&lt;br&gt;Online&lt;br&gt;- Users&lt;br&gt;&lt;br&gt;WireSecurity&lt;br&gt;- WebAgent_Users&lt;br&gt;- WebApi_TrustedDevices&lt;br&gt;&lt;br&gt;WireTransac&lt;br&gt;- Senders&lt;br&gt;- SenderVersions&lt;br&gt;- Comp_SndGroups&lt;br&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-200" y="51" width="190" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="tjw_QGAWWhNyDeaGo1YC-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.685;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MUhubDVM9BwMi47_hHYt-134">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406" y="-301" as="sourcePoint" />
+            <mxPoint x="419" y="-294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjw_QGAWWhNyDeaGo1YC-3" value="SenderId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tjw_QGAWWhNyDeaGo1YC-2">
+          <mxGeometry x="-0.3066" relative="1" as="geometry">
+            <mxPoint x="-11" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
