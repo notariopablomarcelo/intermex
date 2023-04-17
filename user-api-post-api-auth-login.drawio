@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T01:06:08.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="8d0K0GN2j7U_ixlvDB6G" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T01:18:26.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_SBPB5puRuoswaUbFQ99" version="21.1.8" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
-    <mxGraphModel dx="2074" dy="2356" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2286" dy="2390" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,9 +122,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sMybmjBBknjoh3TIYzj4-15" value="Revisa si es trusted device según se tenga en el claim &quot;TrustedDevice&quot;, creo que se debe obtener de la tabla webapi_trusteddevices" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="436" y="-693" width="215" height="77" as="geometry" />
+          <mxGeometry x="115" y="-542" width="215" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="sMybmjBBknjoh3TIYzj4-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sMybmjBBknjoh3TIYzj4-15">
+        <mxCell id="sMybmjBBknjoh3TIYzj4-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sMybmjBBknjoh3TIYzj4-15" target="sMybmjBBknjoh3TIYzj4-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="-798" as="sourcePoint" />
             <mxPoint x="329" y="-635" as="targetPoint" />
@@ -191,6 +191,9 @@
           <mxGeometry x="-0.2816" y="2" relative="1" as="geometry">
             <mxPoint x="23" y="-8" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sMybmjBBknjoh3TIYzj4-31" value="Cambios a implementar&lt;br&gt;- Check terms and conditions debe ir como parte del validate&lt;br&gt;- Check device debe ir como parte del validate y se debe veriificar desde la tabla wiresecurity" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="541" y="-1261" width="419" height="176" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
