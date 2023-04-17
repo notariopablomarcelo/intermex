@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T13:57:34.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="HzYYOpRTgkxM_UFfYZJj" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T13:57:51.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="mJKzxZ6cqdf9zs9PQo_o" version="21.1.8" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="2474" dy="2356" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
             <mxPoint x="-51" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WPCtc61j0_sxeyAxRDy0-4" value="Se puede obtener los datos de first name y lastname de user from wiresecurity. De ahi se obtiene en reset password" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WPCtc61j0_sxeyAxRDy0-4" value="Se puede obtener los datos de first name y lastname de user from wiresecurity. De ahi se obtiene en el proceso de reset password" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="377" y="-446" width="206" height="64" as="geometry" />
         </mxCell>
         <mxCell id="WPCtc61j0_sxeyAxRDy0-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WPCtc61j0_sxeyAxRDy0-4">
