@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T13:48:29.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ruR-3DZLRkcJIV8WMU34" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T14:05:28.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rsnJ8OiPYTkMD-zW2Tkr" version="21.3.2" type="github">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
-    <mxGraphModel dx="1572" dy="630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -247,6 +247,21 @@
           <mxGeometry x="-0.2092" y="-1" relative="1" as="geometry">
             <mxPoint x="17" y="14" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-83" value="POST&lt;br&gt;/api/v2/login" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="256" y="157" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-84" value="POST&lt;br&gt;/api/v2/verificationCode/send" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="634.5" y="157" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-85" value="POST&lt;br&gt;/api/v2/registration/init" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1655.5" y="141" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-86" value="POST&lt;br&gt;/api/v2/auth/validatetwofactor" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2098" y="145" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-87" value="POST&lt;br&gt;/api/v2/registration" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2532" y="151" width="233" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
