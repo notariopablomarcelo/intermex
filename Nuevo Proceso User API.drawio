@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T14:58:05.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gCsSj869IPA05vlfplS_" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T15:00:13.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="LIjNMrr1Z8JbVYrSvSzt" version="21.3.2" type="github">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
     <mxGraphModel dx="1886" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
@@ -222,7 +222,7 @@
         <mxCell id="565gJ2iyMEnKzCEkJN_x-76" value="Registration&lt;br&gt;Complete" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2584" y="227" width="129" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-77" value="TransactionId&lt;br&gt;Sender Information" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-77" value="TransactionId&lt;br&gt;Sender Information&lt;br&gt;Password" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2464" y="209.75" width="114" height="80.5" as="geometry" />
         </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-78" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- Existe TransactionId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
