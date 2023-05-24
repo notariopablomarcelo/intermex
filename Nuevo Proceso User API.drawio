@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T16:06:22.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="W2vK2PDRx6AnCDD03S0z" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T16:08:29.273Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="8vNrTDMhfyujB_cvqtzh" version="21.3.2" type="github">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
     <mxGraphModel dx="1886" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
@@ -111,13 +111,13 @@
           <mxGeometry x="924" y="706" width="142" height="91" as="geometry" />
         </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-36" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="999" y="174" width="225" height="188" as="geometry" />
+          <mxGeometry x="938" y="174" width="286" height="188" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-13" value="key: &lt;b&gt;VerificationCode-{transactionId}&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- username&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- partnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deliveryMethod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- fromLogin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- retries = 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- endTime&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;-validated&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="565gJ2iyMEnKzCEkJN_x-36">
-          <mxGeometry width="225" height="188" as="geometry" />
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-13" value="key: &lt;b&gt;VerificationCodeLogin-{transactionId}&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- username&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- partnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deliveryMethod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- fromLogin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- retries = 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- endTime&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;-validated&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="565gJ2iyMEnKzCEkJN_x-36">
+          <mxGeometry width="286" height="188" as="geometry" />
         </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-35" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="565gJ2iyMEnKzCEkJN_x-36">
-          <mxGeometry x="82.5" y="3" width="60" height="30" as="geometry" />
+          <mxGeometry x="104.86666666666666" y="3" width="76.26666666666667" height="30" as="geometry" />
         </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-37" value="Registration&lt;br&gt;Init" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1707.5" y="227" width="129" height="46" as="geometry" />
@@ -256,6 +256,15 @@
         </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-87" value="POST&lt;br&gt;/api/v2/registration" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2532" y="151" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-89" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1249" y="215" width="305" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-90" value="key: &lt;b&gt;VerificationCodeRegistration-{transactionId}&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- username&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- partnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deliveryMethod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- fromLogin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- retries = 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- endTime&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;-validated&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="565gJ2iyMEnKzCEkJN_x-89">
+          <mxGeometry width="305" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-91" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="565gJ2iyMEnKzCEkJN_x-89">
+          <mxGeometry x="111.83333333333334" y="3.175531914893617" width="81.33333333333334" height="31.755319148936174" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
