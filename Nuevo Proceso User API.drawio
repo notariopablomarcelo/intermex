@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T14:05:28.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rsnJ8OiPYTkMD-zW2Tkr" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T14:06:23.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="0NJktfDlUT4h8kLJeZcH" version="21.3.2" type="github">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
-    <mxGraphModel dx="1434" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,13 +8,7 @@
           <mxGeometry x="308" y="227" width="120" height="46" as="geometry" />
         </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-3" value="Username&lt;br&gt;Password&lt;br&gt;DeviceId&lt;br&gt;PartnerId" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="161" y="216.5" width="76" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-5" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-3" target="565gJ2iyMEnKzCEkJN_x-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="394" y="389" as="sourcePoint" />
-            <mxPoint x="444" y="339" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="214" y="216.5" width="76" height="67" as="geometry" />
         </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-6" value="No existe device&lt;br&gt;Llama &lt;b&gt;&lt;u&gt;Send Verification Code&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="276.5" y="304" width="183" height="60" as="geometry" />
