@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T13:05:52.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="BVB4hbJzB8DwyWhExMAH" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T13:06:04.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Yu52YrhnhQtsXrlus1l-" version="21.3.2" type="github">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
     <mxGraphModel dx="1154" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
@@ -34,8 +34,11 @@
         <mxCell id="565gJ2iyMEnKzCEkJN_x-9" value="Token&lt;br&gt;VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;transactionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="180" y="371" width="120" height="114" as="geometry" />
         </mxCell>
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-10" target="565gJ2iyMEnKzCEkJN_x-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-10" value="Send Verification Code" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="681.5" y="227" width="129" height="46" as="geometry" />
+          <mxGeometry x="686.5" y="227" width="129" height="46" as="geometry" />
         </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-11" value="Username&lt;br&gt;DeliveryMethod&lt;br&gt;DeviceId&lt;br&gt;PartnerId" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="533" y="216.5" width="102" height="67" as="geometry" />
@@ -91,6 +94,9 @@
         </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-25" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;transactionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="726" y="588" width="120" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-26" target="565gJ2iyMEnKzCEkJN_x-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="565gJ2iyMEnKzCEkJN_x-26" value="Procesar Reintentos" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1166" y="513" width="129" height="46" as="geometry" />
