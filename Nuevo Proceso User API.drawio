@@ -1,270 +1,676 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T20:03:47.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="0qM4G8dC3n_jRjFOzIXq" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T17:26:05.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="2jwHTKU5p6qtrt9Tew-w" version="21.3.3" type="github" pages="2">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
-    <mxGraphModel dx="1886" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
+    <mxGraphModel dx="1715" dy="1045" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-1" value="Login&lt;br&gt;( no existe device )" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-1" value="Login&lt;br&gt;( no existe device )" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="308" y="227" width="120" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-3" value="Username&lt;br&gt;Password&lt;br&gt;DeviceId&lt;br&gt;PartnerId&lt;br&gt;DeliveryMethod&lt;br&gt;LoginType" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-3" value="Username&lt;br&gt;Password&lt;br&gt;DeviceId&lt;br&gt;PartnerId&lt;br&gt;DeliveryMethod&lt;br&gt;LoginType" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="142" y="201" width="122" height="108.5" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-6" value="No existe device&lt;br&gt;Llama &lt;b&gt;&lt;u&gt;Send Verification Code&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-6" value="No existe device&lt;br&gt;Llama &lt;b&gt;&lt;u&gt;Send Verification Code&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="276.5" y="304" width="183" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-7" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-1" target="565gJ2iyMEnKzCEkJN_x-6">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-7" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="565gJ2iyMEnKzCEkJN_x-1" target="565gJ2iyMEnKzCEkJN_x-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="394" y="389" as="sourcePoint" />
             <mxPoint x="444" y="339" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-8" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="565gJ2iyMEnKzCEkJN_x-9">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-8" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="565gJ2iyMEnKzCEkJN_x-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="365" y="428" as="sourcePoint" />
             <mxPoint x="313" y="407" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-9" value="Token&lt;br&gt;VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;transactionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-9" value="Token&lt;br&gt;VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;transactionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="180" y="371" width="120" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-10" target="565gJ2iyMEnKzCEkJN_x-12">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="565gJ2iyMEnKzCEkJN_x-10" target="565gJ2iyMEnKzCEkJN_x-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-10" value="Send Verification Code" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-10" value="Send Verification Code" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="686.5" y="227" width="129" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-11" value="Username&lt;br&gt;DeliveryMethod&lt;br&gt;DeviceId&lt;br&gt;PartnerId&lt;br&gt;FromLogin" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-11" value="Username&lt;br&gt;DeliveryMethod&lt;br&gt;DeviceId&lt;br&gt;PartnerId&lt;br&gt;FromLogin" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="533" y="216.5" width="102" height="79.5" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-12" value="Verifica que no existe un envío previo&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Buscar en redis por&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;username,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;partnerId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;deviceId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;deliveryMethod&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-12" value="Verifica que no existe un envío previo&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Buscar en redis por&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;username,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;partnerId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;deviceId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;deliveryMethod&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="639" y="304" width="224" height="129" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-14" target="565gJ2iyMEnKzCEkJN_x-15">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="565gJ2iyMEnKzCEkJN_x-14" target="565gJ2iyMEnKzCEkJN_x-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-17" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="565gJ2iyMEnKzCEkJN_x-16">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-17" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="565gJ2iyMEnKzCEkJN_x-16" vertex="1" connectable="0">
           <mxGeometry x="-0.5002" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-14" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-14" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="706" y="433" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-15" value="Genera TransactionId&lt;br&gt;Genera Code&lt;br&gt;Guarda en Redis&lt;br&gt;Envía Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-15" value="Genera TransactionId&lt;br&gt;Genera Code&lt;br&gt;Guarda en Redis&lt;br&gt;Envía Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="486" y="508" width="136" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-18" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="565gJ2iyMEnKzCEkJN_x-19">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-18" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="565gJ2iyMEnKzCEkJN_x-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="563" y="634" as="sourcePoint" />
             <mxPoint x="518" y="601" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-19" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;transactionId&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-19" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;transactionId&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="385" y="588" width="120" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-20" value="&lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Envía Code ( si no está bloqueado )" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-20" value="&lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Envía Code ( si no está bloqueado )" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="822" y="513" width="136" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-22" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-14" target="565gJ2iyMEnKzCEkJN_x-20">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-22" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="565gJ2iyMEnKzCEkJN_x-14" target="565gJ2iyMEnKzCEkJN_x-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="775" y="527" as="sourcePoint" />
             <mxPoint x="825" y="477" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-23" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="565gJ2iyMEnKzCEkJN_x-22">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-23" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="565gJ2iyMEnKzCEkJN_x-22" vertex="1" connectable="0">
           <mxGeometry x="-0.4419" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-24" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="565gJ2iyMEnKzCEkJN_x-25">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-24" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="565gJ2iyMEnKzCEkJN_x-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="904" y="634" as="sourcePoint" />
             <mxPoint x="859" y="601" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-25" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;transactionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-25" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;transactionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="726" y="588" width="120" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-26" target="565gJ2iyMEnKzCEkJN_x-28">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="565gJ2iyMEnKzCEkJN_x-26" target="565gJ2iyMEnKzCEkJN_x-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-26" value="Procesar Reintentos" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-26" value="Procesar Reintentos" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1166" y="513" width="129" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-27" value="TransactionId" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-27" value="TransactionId" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1050" y="512.75" width="102" height="46.5" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-28" value="Obtener valor de Redis por transactionId&lt;br&gt;&lt;br&gt;Verificar valor retries&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Obtener retries&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;retries + 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Si &amp;gt; 3&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Actualizar endTime&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Return (*1)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Sino&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;A&lt;/span&gt;ctualizar retries + 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Return (*2)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-28" value="Obtener valor de Redis por transactionId&lt;br&gt;&lt;br&gt;Verificar valor retries&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Obtener retries&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;retries + 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Si &amp;gt; 3&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Actualizar endTime&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Sino&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;A&lt;/span&gt;ctualizar retries + 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*2)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1110.75" y="592" width="239.5" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-29" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="565gJ2iyMEnKzCEkJN_x-30">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-29" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="565gJ2iyMEnKzCEkJN_x-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1123" y="854" as="sourcePoint" />
             <mxPoint x="1078" y="821" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-30" value="(*2)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Bloqued = false&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-30" value="(*2)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Bloqued = false&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="924" y="808" width="141" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-31" value="(*1)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Bloqued = true&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-31" value="(*1)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Bloqued = true&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="924" y="706" width="142" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-36" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-36" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="938" y="174" width="286" height="188" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-13" value="key: &lt;b&gt;VerificationCodeLogin-{transactionId}&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- username&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- partnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deliveryMethod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- fromLogin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- retries = 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- endTime&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;-validated&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="565gJ2iyMEnKzCEkJN_x-36">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-13" value="key: &lt;b&gt;VerificationCodeLogin-{transactionId}&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- username&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- partnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deliveryMethod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- fromLogin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- retries = 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- endTime&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;-validated&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" parent="565gJ2iyMEnKzCEkJN_x-36" vertex="1">
           <mxGeometry width="286" height="188" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-35" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="565gJ2iyMEnKzCEkJN_x-36">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-35" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="565gJ2iyMEnKzCEkJN_x-36" vertex="1">
           <mxGeometry x="104.86666666666666" y="3" width="76.26666666666667" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-37" value="Registration&lt;br&gt;Init" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-37" value="Registration&lt;br&gt;Init" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1707.5" y="227" width="129" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-38" value="Username&lt;br&gt;DeliveryMethod&lt;br&gt;DeviceId&lt;br&gt;PartnerId" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-38" value="Username&lt;br&gt;DeliveryMethod&lt;br&gt;DeviceId&lt;br&gt;PartnerId" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1588" y="201" width="102" height="80.5" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-39" value="Verifica que no existe un envío previo&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Buscar en redis por&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;username,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;partnerId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;deviceId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;deliveryMethod&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-39" value="Verifica que no existe un envío previo&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Buscar en redis por&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;username,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;partnerId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;deviceId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;deliveryMethod&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1660" y="371" width="224" height="129" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-40" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- No existe username-partnerId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- Etc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-40" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- No existe username-partnerId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- Etc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1660" y="301" width="224" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-54" target="565gJ2iyMEnKzCEkJN_x-55">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="565gJ2iyMEnKzCEkJN_x-54" target="565gJ2iyMEnKzCEkJN_x-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-53" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="565gJ2iyMEnKzCEkJN_x-52">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-53" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="565gJ2iyMEnKzCEkJN_x-52" vertex="1" connectable="0">
           <mxGeometry x="-0.5002" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-54" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-54" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1732" y="510.5" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-55" value="Genera TransactionId&lt;br&gt;Genera Code&lt;br&gt;Guarda en Redis&lt;br&gt;Envía Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-55" value="Genera TransactionId&lt;br&gt;Genera Code&lt;br&gt;Guarda en Redis&lt;br&gt;Envía Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1512" y="585.5" width="136" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-56" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="565gJ2iyMEnKzCEkJN_x-57">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-56" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="565gJ2iyMEnKzCEkJN_x-57" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1589" y="711.5" as="sourcePoint" />
             <mxPoint x="1544" y="678.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-57" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;transactionId&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-57" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;transactionId&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1411" y="665.5" width="120" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-58" value="&lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Envía Code ( si no está bloqueado )" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-58" value="&lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Envía Code ( si no está bloqueado )" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1848" y="590.5" width="136" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-59" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-54" target="565gJ2iyMEnKzCEkJN_x-58">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-59" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="565gJ2iyMEnKzCEkJN_x-54" target="565gJ2iyMEnKzCEkJN_x-58" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1801" y="604.5" as="sourcePoint" />
             <mxPoint x="1851" y="554.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-60" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="565gJ2iyMEnKzCEkJN_x-59">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-60" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="565gJ2iyMEnKzCEkJN_x-59" vertex="1" connectable="0">
           <mxGeometry x="-0.4419" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-61" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="565gJ2iyMEnKzCEkJN_x-62">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-61" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="565gJ2iyMEnKzCEkJN_x-62" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1930" y="711.5" as="sourcePoint" />
             <mxPoint x="1885" y="678.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-62" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;transactionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-62" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;transactionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1752" y="665.5" width="120" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-63" value="Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-63" value="Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2150" y="227" width="129" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-64" value="Llamarían a&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-64" value="Llamarían a&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1690" y="837" width="129" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-66" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.461;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="565gJ2iyMEnKzCEkJN_x-64">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-66" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.461;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="565gJ2iyMEnKzCEkJN_x-64" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1749" y="781" as="sourcePoint" />
             <mxPoint x="2070" y="735" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-67" value="Llamarían a&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-67" value="Llamarían a&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="308" y="505" width="129" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-68" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.461;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="565gJ2iyMEnKzCEkJN_x-67">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-68" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.461;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="565gJ2iyMEnKzCEkJN_x-67" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="367" y="449" as="sourcePoint" />
             <mxPoint x="688" y="403" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-69" value="TransactionId&lt;br&gt;Code&lt;br&gt;DeviceId&lt;br&gt;IsTrustedDevice" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-69" value="TransactionId&lt;br&gt;Code&lt;br&gt;DeviceId&lt;br&gt;IsTrustedDevice" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2033" y="209.75" width="102" height="80.5" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-70" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- Existe TransactionId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-70" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- Existe TransactionId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="2102.5" y="306.5" width="224" height="46.5" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-71" value="Obtener valor de Redis por transactionId&lt;br&gt;&lt;br&gt;Verificar si está bloqueado&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;Verifica Code&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Si no coincide &lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;Éxito:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Guardar deviceId &lt;u style=&quot;font-style: italic;&quot;&gt;si existe user&lt;br&gt;&lt;/u&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;Verificar si deliveryMethod es SMS, se debe almacenar &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;isPhoneNumberVerified&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: italic; text-decoration-line: underline; white-space: pre;&quot;&gt;	&lt;/span&gt;FromLogin = true?&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Delete Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Return (*2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-71" value="Obtener valor de Redis por transactionId&lt;br&gt;&lt;br&gt;Verificar si está bloqueado&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;Verifica Code&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Si no coincide &lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;Éxito:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Guardar deviceId &lt;u style=&quot;font-style: italic;&quot;&gt;si existe user&lt;br&gt;&lt;/u&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;Verificar si deliveryMethod es SMS, se debe almacenar &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;isPhoneNumberVerified&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: italic; text-decoration-line: underline; white-space: pre;&quot;&gt; &lt;/span&gt;FromLogin = true?&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Delete Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="2049" y="367" width="385" height="265" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-73" value="(*2)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	R&lt;/span&gt;esult&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-73" value="(*2)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; R&lt;/span&gt;esult&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="2068.5" y="786.5" width="141" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-74" value="(*1)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Bloqued = true&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-74" value="(*1)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Bloqued = true&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="2068" y="679" width="142" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-75" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="565gJ2iyMEnKzCEkJN_x-74">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-75" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="565gJ2iyMEnKzCEkJN_x-74" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2258" y="725" as="sourcePoint" />
             <mxPoint x="2219" y="837" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-76" value="Registration&lt;br&gt;Complete" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-76" value="Registration&lt;br&gt;Complete" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2584" y="227" width="129" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-77" value="TransactionId&lt;br&gt;Sender Information&lt;br&gt;Password" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-77" value="TransactionId&lt;br&gt;Sender Information&lt;br&gt;Password" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2464" y="209.75" width="114" height="80.5" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-78" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- Existe TransactionId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-78" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- Existe TransactionId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="2536.5" y="310.75" width="224" height="46.5" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-79" value="&lt;br&gt;Registro de Usuario&lt;br&gt;&lt;br&gt;Se asume que se llamó anteriormente a Validate 2FA, por lo que se debe almacenar el device&lt;br&gt;&lt;br&gt;Si el deliveryMethod en redis es SMS, se debe almacenar isPhoneNumberVerified&lt;br&gt;&lt;br&gt;Delete Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-79" value="&lt;br&gt;Registro de Usuario&lt;br&gt;&lt;br&gt;Se asume que se llamó anteriormente a Validate 2FA, por lo que se debe almacenar el device&lt;br&gt;&lt;br&gt;Si el deliveryMethod en redis es SMS, se debe almacenar isPhoneNumberVerified&lt;br&gt;&lt;br&gt;Delete Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="2536.5" y="382" width="224" height="212" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-80" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="565gJ2iyMEnKzCEkJN_x-6">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-80" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="565gJ2iyMEnKzCEkJN_x-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="785" y="487" as="sourcePoint" />
             <mxPoint x="568" y="302" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-82" value="FromLogin = true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="565gJ2iyMEnKzCEkJN_x-80">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-82" value="FromLogin = true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="565gJ2iyMEnKzCEkJN_x-80" vertex="1" connectable="0">
           <mxGeometry x="-0.2092" y="-1" relative="1" as="geometry">
             <mxPoint x="17" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-83" value="POST&lt;br&gt;/api/v2/login" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-83" value="POST&lt;br&gt;/api/v2/login" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="256" y="157" width="233" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-84" value="POST&lt;br&gt;/api/v2/verificationCode/send" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-84" value="POST&lt;br&gt;/api/v2/verificationCode/send" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="634.5" y="157" width="233" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-85" value="POST&lt;br&gt;/api/v2/registration/init" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-85" value="POST&lt;br&gt;/api/v2/registration/init" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1655.5" y="141" width="233" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-86" value="POST&lt;br&gt;/api/v2/auth/validatetwofactor" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-86" value="POST&lt;br&gt;/api/v2/auth/validatetwofactor" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2098" y="145" width="233" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-87" value="POST&lt;br&gt;/api/v2/registration" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-87" value="POST&lt;br&gt;/api/v2/registration" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2532" y="151" width="233" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-89" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-89" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1249" y="215" width="305" height="199" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-90" value="key: &lt;b&gt;VerificationCodeRegistration-{transactionId}&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- username&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- partnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deliveryMethod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- fromLogin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- retries = 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- endTime&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;-validated&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="565gJ2iyMEnKzCEkJN_x-89">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-90" value="key: &lt;b&gt;VerificationCodeRegistration-{transactionId}&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- username&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- partnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deliveryMethod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- fromLogin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- retries = 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- endTime&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;-validated&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" parent="565gJ2iyMEnKzCEkJN_x-89" vertex="1">
           <mxGeometry width="305" height="199" as="geometry" />
         </mxCell>
-        <mxCell id="565gJ2iyMEnKzCEkJN_x-91" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="565gJ2iyMEnKzCEkJN_x-89">
+        <mxCell id="565gJ2iyMEnKzCEkJN_x-91" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="565gJ2iyMEnKzCEkJN_x-89" vertex="1">
           <mxGeometry x="111.83333333333334" y="3.175531914893617" width="81.33333333333334" height="31.755319148936174" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TDHgo9thHfWk1XpJ-0_f" name="Page-2">
+    <mxGraphModel dx="3487" dy="1793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-1" value="Login&lt;br&gt;( no existe device )" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="253" y="126" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-2" value="Username&lt;br&gt;Password&lt;br&gt;DeviceId&lt;br&gt;PartnerId&lt;br&gt;DeliveryMethod&lt;br&gt;LoginType" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="87" y="100" width="122" height="108.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-3" value="No existe device&lt;br&gt;Llama &lt;b&gt;&lt;u&gt;Send Verification Code&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="221.5" y="203" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-4" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-1" target="vjS_u_h41qtLOI2-cxm3-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="339" y="288" as="sourcePoint" />
+            <mxPoint x="389" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-5" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vjS_u_h41qtLOI2-cxm3-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="327" as="sourcePoint" />
+            <mxPoint x="258" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-6" value="Token&lt;br&gt;VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;transactionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="125" y="270" width="120" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-8" target="vjS_u_h41qtLOI2-cxm3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-8" value="Send Verification Code" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="631.5" y="126" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-9" value="Username&lt;br&gt;DeliveryMethod&lt;br&gt;DeviceId&lt;br&gt;PartnerId&lt;br&gt;FromLogin" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="478" y="115.5" width="102" height="79.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-10" target="vjS_u_h41qtLOI2-cxm3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-10" value="Verifica que no existe un envío previo&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Buscar en redis los VerificationCodeLogin por&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;username,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;partnerId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;deviceId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;deliveryMethod&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="584" y="203" width="224" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-13" target="vjS_u_h41qtLOI2-cxm3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-12" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vjS_u_h41qtLOI2-cxm3-11">
+          <mxGeometry x="-0.5002" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-13" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="656" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-14" value="Genera TransactionId&lt;br&gt;Genera Code&lt;br&gt;Guarda en Redis&lt;br&gt;Envía Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="436" y="455" width="136" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-15" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vjS_u_h41qtLOI2-cxm3-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="513" y="581" as="sourcePoint" />
+            <mxPoint x="468" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-16" target="vjS_u_h41qtLOI2-cxm3-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-16" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;transactionId,&lt;br&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="335" y="535" width="120" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-17" value="&lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Envía Code ( si no está bloqueado )" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="772" y="460" width="136" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-18" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-13" target="vjS_u_h41qtLOI2-cxm3-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="474" as="sourcePoint" />
+            <mxPoint x="775" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-19" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vjS_u_h41qtLOI2-cxm3-18">
+          <mxGeometry x="-0.4419" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-23" target="vjS_u_h41qtLOI2-cxm3-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-23" value="Procesar Reintentos" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="464.25" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-24" value="TransactionId" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="949" y="464" width="102" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-25" value="Obtener valor de Redis por transactionId&lt;br&gt;&lt;br&gt;Verificar valor retries&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Obtener retries&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;retries + 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Si &amp;gt; 3&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Actualizar endTime&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Sino&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;A&lt;/span&gt;ctualizar retries + 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*2)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1009.75" y="543.25" width="239.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-26" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vjS_u_h41qtLOI2-cxm3-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1053" y="809" as="sourcePoint" />
+            <mxPoint x="977" y="772.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-27" value="(*2)&lt;br&gt;VerificationCode&lt;br&gt;{&lt;br&gt;  transactionId,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="828" y="759.25" width="141" height="99.75" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-28" value="(*1) (ValidationError)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="828" y="657.25" width="142" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="821" y="154.25" width="166" height="195.75" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-30" value="key: &lt;b&gt;VerificationCodeLogin-{transactionId}&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- username&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- partnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deliveryMethod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- fromLogin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- retries = 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- endTime&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="vjS_u_h41qtLOI2-cxm3-29">
+          <mxGeometry width="166" height="195.74999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-31" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vjS_u_h41qtLOI2-cxm3-29">
+          <mxGeometry x="60.86666666666666" y="3.123670212765957" width="44.266666666666666" height="31.236702127659573" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-32" value="Registration&lt;br&gt;Init" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="186.5" y="1126" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-33" value="Username&lt;br&gt;DeliveryMethod&lt;br&gt;DeviceId&lt;br&gt;PartnerId" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="67" y="1100" width="102" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-34" value="Verifica que no existe un envío previo&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Buscar en redis por&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;username,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;partnerId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;deviceId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;deliveryMethod&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-703" y="1402" width="224" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-35" target="Cr77986iJHJyUe4jSYLj-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-35" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- No existe username-partnerId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- Etc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="139" y="1200" width="224" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-38" target="vjS_u_h41qtLOI2-cxm3-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-37" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vjS_u_h41qtLOI2-cxm3-36">
+          <mxGeometry x="-0.5002" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-38" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-631" y="1541.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-39" value="Genera TransactionId&lt;br&gt;Genera Code&lt;br&gt;Guarda en Redis&lt;br&gt;Envía Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-851" y="1616.5" width="136" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-40" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vjS_u_h41qtLOI2-cxm3-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-774" y="1742.5" as="sourcePoint" />
+            <mxPoint x="-819" y="1709.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-41" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;transactionId&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-952" y="1696.5" width="120" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-42" value="&lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Envía Code ( si no está bloqueado )" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-515" y="1621.5" width="136" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-43" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-38" target="vjS_u_h41qtLOI2-cxm3-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-562" y="1635.5" as="sourcePoint" />
+            <mxPoint x="-512" y="1585.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-44" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vjS_u_h41qtLOI2-cxm3-43">
+          <mxGeometry x="-0.4419" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-45" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vjS_u_h41qtLOI2-cxm3-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-433" y="1742.5" as="sourcePoint" />
+            <mxPoint x="-478" y="1709.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-46" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;transactionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-611" y="1696.5" width="120" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-47" value="Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1417" y="138" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-48" value="Llamarían a&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-673" y="1868" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-49" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.461;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vjS_u_h41qtLOI2-cxm3-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-614" y="1812" as="sourcePoint" />
+            <mxPoint x="-293" y="1766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-50" value="App llamarían a&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="124" y="557.5" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-51" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.461;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="vjS_u_h41qtLOI2-cxm3-50" source="vjS_u_h41qtLOI2-cxm3-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="183" y="510.25" as="sourcePoint" />
+            <mxPoint x="504" y="464.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-52" value="TransactionId&lt;br&gt;Code&lt;br&gt;DeviceId&lt;br&gt;IsTrustedDevice" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="120.75" width="102" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-53" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- Existe TransactionId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1369.5" y="217.5" width="224" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-54" value="Obtener valor de Redis por transactionId&lt;br&gt;&lt;br&gt;Verificar si está bloqueado&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;Verifica Code&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Si no coincide &lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;Éxito:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Guardar deviceId &lt;u style=&quot;font-style: italic;&quot;&gt;si existe user&lt;br&gt;&lt;/u&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;Verificar si deliveryMethod es SMS, se debe almacenar &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;isPhoneNumberVerified&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: italic; text-decoration-line: underline; white-space: pre;&quot;&gt; &lt;/span&gt;FromLogin = true?&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Delete Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1316" y="278" width="320" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-55" value="(*2)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; R&lt;/span&gt;esult&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1335.5" y="697.5" width="141" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-56" value="(*1)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Bloqued = true&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="590" width="142" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-57" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vjS_u_h41qtLOI2-cxm3-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1525" y="636" as="sourcePoint" />
+            <mxPoint x="1486" y="748" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-58" value="Registration&lt;br&gt;Complete" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="1116" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-59" value="TransactionId&lt;br&gt;Sender Information&lt;br&gt;Password" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1644" y="1098.75" width="114" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-60" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- Existe TransactionId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1716.5" y="1199.75" width="224" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-61" value="&lt;br&gt;Registro de Usuario&lt;br&gt;&lt;br&gt;Se asume que se llamó anteriormente a Validate 2FA, por lo que se debe almacenar el device&lt;br&gt;&lt;br&gt;Si el deliveryMethod en redis es SMS, se debe almacenar isPhoneNumberVerified&lt;br&gt;&lt;br&gt;Delete Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1716.5" y="1271" width="224" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-62" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="386" as="sourcePoint" />
+            <mxPoint x="513" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-63" value="FromLogin = true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vjS_u_h41qtLOI2-cxm3-62">
+          <mxGeometry x="-0.2092" y="-1" relative="1" as="geometry">
+            <mxPoint x="17" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-64" value="POST&lt;br&gt;/api/v2/login" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="201" y="56" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-65" value="POST&lt;br&gt;/api/v2/verificationCode/send" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="579.5" y="56" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-66" value="POST&lt;br&gt;/api/v2/registration/init" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="134.5" y="1040" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-67" value="POST&lt;br&gt;/api/v2/auth/validatetwofactor" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1365" y="56" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-68" value="POST&lt;br&gt;/api/v2/registration" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1712" y="1040" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-69" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="876" y="1096" width="195" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-70" value="&lt;b&gt;VerificationCodeRegistration-{transactonId}&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- username&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- partnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deliveryMethod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- fromLogin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- retries = 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- endTime&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="vjS_u_h41qtLOI2-cxm3-69">
+          <mxGeometry width="195" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-71" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vjS_u_h41qtLOI2-cxm3-69">
+          <mxGeometry x="71.50000000000003" y="3.175531914893617" width="52.000000000000014" height="31.755319148936174" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-2" value="Use case: LOGIN NEW DEVICE (User already registered)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-19" width="1831" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-6" value="Use case: REGISTER NEW USER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="67" y="960" width="1854" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cr77986iJHJyUe4jSYLj-25" target="Cr77986iJHJyUe4jSYLj-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-25" value="Send Verification Code" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="676.5" y="1110" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-26" value="Username&lt;br&gt;DeliveryMethod&lt;br&gt;DeviceId&lt;br&gt;PartnerId&lt;br&gt;FromLogin" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="523" y="1099.5" width="102" height="79.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cr77986iJHJyUe4jSYLj-28" target="Cr77986iJHJyUe4jSYLj-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-28" value="Verifica que no existe un envío previo&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Buscar en redis los VerificationCodeLogin por&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;username,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;partnerId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;deviceId,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;deliveryMethod&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="629" y="1187" width="224" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cr77986iJHJyUe4jSYLj-31" target="Cr77986iJHJyUe4jSYLj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cr77986iJHJyUe4jSYLj-29">
+          <mxGeometry x="-0.5002" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-31" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="701" y="1364" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-32" value="Genera TransactionId&lt;br&gt;Genera Code&lt;br&gt;Guarda en Redis&lt;br&gt;Envía Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="481" y="1439" width="136" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-33" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Cr77986iJHJyUe4jSYLj-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="558" y="1565" as="sourcePoint" />
+            <mxPoint x="513" y="1532" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-34" value="VerificationCode&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;transactionId,&lt;br&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1519" width="120" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cr77986iJHJyUe4jSYLj-36" target="Cr77986iJHJyUe4jSYLj-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-36" value="Procesar Reintentos" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="938" y="1545.25" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-37" value="TransactionId" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="822" y="1545" width="102" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-38" value="Obtener valor de Redis por transactionId&lt;br&gt;&lt;br&gt;Verificar valor retries&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Obtener retries&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;retries + 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Si &amp;gt; 3&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Actualizar endTime&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Sino&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;A&lt;/span&gt;ctualizar retries + 1&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*2)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="882.75" y="1624.25" width="239.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-39" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Cr77986iJHJyUe4jSYLj-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="926" y="1890" as="sourcePoint" />
+            <mxPoint x="850" y="1853.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-40" value="(*2)&lt;br&gt;VerificationCode&lt;br&gt;{&lt;br&gt;  transactionId,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;msg&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="701" y="1840.25" width="141" height="99.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-41" value="(*1) (ValidationError)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="701" y="1738.25" width="142" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-46" value="FromLogin = false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="484.9959124882665" y="1246.2481687680752" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-47" value="POST&lt;br&gt;/api/v2/verificationCode/send" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="624.5" y="1040" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="366" y="1303" as="sourcePoint" />
+            <mxPoint x="515" y="1174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-50" value="Validaciones success&lt;br&gt;Llama &lt;b&gt;&lt;u&gt;Send Verification Code&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="159.5" y="1297" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-52" value="&lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Envía Code ( si no está bloqueado )" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="817" y="1445" width="136" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-53" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="Cr77986iJHJyUe4jSYLj-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="781" y="1405" as="sourcePoint" />
+            <mxPoint x="820" y="1409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-54" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cr77986iJHJyUe4jSYLj-53">
+          <mxGeometry x="-0.4419" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-55" value="Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1336" y="1122" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-56" value="TransactionId&lt;br&gt;Code&lt;br&gt;DeviceId&lt;br&gt;IsTrustedDevice" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1219" y="1104.75" width="102" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-57" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- Existe TransactionId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1288.5" y="1201.5" width="224" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-58" value="Obtener valor de Redis por transactionId&lt;br&gt;&lt;br&gt;Verificar si está bloqueado&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;Verifica Code&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Si no coincide &lt;b&gt;&lt;u&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;Éxito:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Guardar deviceId &lt;i style=&quot;text-decoration-line: underline;&quot;&gt;si existe user.&lt;/i&gt;&lt;br&gt;&amp;nbsp;Actualizar en redis Validated&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;Verificar si deliveryMethod es SMS, se debe almacenar isPhoneNumberVerified&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;i&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;nbsp;&lt;/i&gt;&lt;/span&gt;FromLogin = true? -&amp;gt; Delete Redis&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Return (*2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1170.5" y="1255" width="460" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-59" value="(*2)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; R&lt;/span&gt;esult&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1264.5" y="1644.5" width="141" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-60" value="(*1)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Bloqued = true&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1537" width="142" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-61" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Cr77986iJHJyUe4jSYLj-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1454" y="1583" as="sourcePoint" />
+            <mxPoint x="1415" y="1695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cr77986iJHJyUe4jSYLj-62" value="POST&lt;br&gt;/api/v2/auth/validatetwofactor" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1284" y="1040" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="PnC5Mg0veQUYw-qsV5Dj-1" value="200&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; token&lt;br/&gt;&lt;/span&gt;&amp;nbsp;+todo&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1716.5" y="1519" width="142" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="PnC5Mg0veQUYw-qsV5Dj-2" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PnC5Mg0veQUYw-qsV5Dj-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1906.5" y="1565" as="sourcePoint" />
+            <mxPoint x="1867.5" y="1677" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnC5Mg0veQUYw-qsV5Dj-3" value="(Validation Error)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; validations&lt;/span&gt;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1716.5" y="1624.25" width="141" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
