@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T18:15:58.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="z6AB-03yS414o4biYnjM" version="21.3.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-26T18:28:12.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="NcjDlmHHjC8kmFksWHpP" version="21.3.4" type="github" pages="2">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
     <mxGraphModel dx="2931" dy="1520" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
@@ -270,7 +270,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TDHgo9thHfWk1XpJ-0_f" name="Page-2">
-    <mxGraphModel dx="2744" dy="2072" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
+    <mxGraphModel dx="629" dy="826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -832,9 +832,6 @@
         </mxCell>
         <mxCell id="wBOjge8Rxzy8oWffofUy-1" value="SOLUCION 1:&lt;br&gt;Al iniciar un 2FA, guardar dos registros en cache:&lt;br&gt;&lt;ol&gt;&lt;li&gt;VerificationCodeWrapper-{TransactionId}&lt;/li&gt;&lt;li&gt;{2FAcase}{PartnerId}-{Username}&lt;/li&gt;&lt;/ol&gt;Si se llama al endpoint que inicia el 2FA de nuevo, buscará el code por el key 2, ya que en ese punto no tendremos TransactionId.&lt;br&gt;Al obtener el key comprobamos si esta bloqueado, si no lo está entonces se lo envia al resend." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;align=left;" vertex="1" parent="1">
           <mxGeometry x="292.75" y="441" width="254" height="209.75" as="geometry" />
-        </mxCell>
-        <mxCell id="wBOjge8Rxzy8oWffofUy-2" value="SOLUCION 2:&lt;br&gt;Al iniciar un 2FA, guardar dos registros en cache:&lt;br&gt;&lt;ol&gt;&lt;li&gt;VerificationCodeWrapper-{TransactionId}&lt;/li&gt;&lt;li&gt;{2FAcase}{PartnerId}-{Username}&lt;/li&gt;&lt;/ol&gt;Si se llama al endpoint que inicia el 2FA de nuevo, buscará el code por el key 2, ya que en ese punto no tendremos TransactionId.&lt;br&gt;Al obtener el key comprobamos si esta bloqueado, si no lo está entonces se lo envia al resend." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;align=left;" vertex="1" parent="1">
-          <mxGeometry x="294" y="662" width="254" height="209.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
