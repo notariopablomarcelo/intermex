@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T00:25:53.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="kQ1hJJr_wc7HmFUBL5F2" version="21.3.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-26T03:37:24.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="-dhphwh7tUVW96PKKO23" version="21.3.3" type="github" pages="2">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
     <mxGraphModel dx="2111" dy="1286" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
@@ -270,7 +270,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TDHgo9thHfWk1XpJ-0_f" name="Page-2">
-    <mxGraphModel dx="1593" dy="1127" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
+    <mxGraphModel dx="2014" dy="1384" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -326,17 +326,17 @@
         <mxCell id="vjS_u_h41qtLOI2-cxm3-13" value="(retry?)&lt;br&gt;code in cache?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="271" y="642.5" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vjS_u_h41qtLOI2-cxm3-14" value="Genera TransactionId&lt;br&gt;Genera Code&lt;br&gt;Guarda en Redis&lt;br&gt;Envía Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="133" y="714" width="136" height="72" as="geometry" />
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-14" value="Genera TransactionId&lt;br&gt;Genera Code&lt;br&gt;Guarda en Redis&lt;br&gt;Envía Code con primaryMethod si deliveryMethod vino null" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="74" y="714" width="195" height="84" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-15" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vjS_u_h41qtLOI2-cxm3-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="174" y="800" as="sourcePoint" />
-            <mxPoint x="129" y="767" as="targetPoint" />
+            <mxPoint x="121" y="814" as="sourcePoint" />
+            <mxPoint x="76" y="781" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-16" value="(200)NoChanges&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;transactionId,&lt;br&gt;sendCodeTo,&lt;br&gt;expirationTime&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-4" y="754" width="120" height="91" as="geometry" />
+          <mxGeometry x="-57" y="768" width="120" height="91" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-17" value="&lt;b&gt;&lt;u&gt;&lt;br&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="387" y="722.5" width="136" height="59" as="geometry" />
@@ -355,31 +355,31 @@
         <mxCell id="vjS_u_h41qtLOI2-cxm3-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vjS_u_h41qtLOI2-cxm3-23" target="vjS_u_h41qtLOI2-cxm3-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vjS_u_h41qtLOI2-cxm3-23" value="Procesar Reintentos" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="387" y="822.25" width="129" height="46" as="geometry" />
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-23" value="Procesar Reintentos Send&lt;br&gt;(Generic)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1257.5" y="1370.25" width="129" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="vjS_u_h41qtLOI2-cxm3-24" value="Value from cache" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="271" y="822" width="102" height="46.5" as="geometry" />
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-24" value="Value from cache&lt;br&gt;DeliveryMethod" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1141.5" y="1370" width="102" height="46.5" as="geometry" />
         </mxCell>
-        <mxCell id="vjS_u_h41qtLOI2-cxm3-25" value="Verificar SendRetries &lt;br&gt;&lt;br&gt;SendRetries + 1&lt;br&gt; &lt;br&gt;IF SendRetries &amp;gt; 3&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Actualizar endTime&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;ELSE&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;span style=&quot;&quot;&gt; &lt;/span&gt;A&lt;/span&gt;ctualizar SendRetries + 1&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Return (*2)&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="364" y="901.25" width="176" height="210" as="geometry" />
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-25" value="Verificar SendRetries&lt;br&gt;&lt;br&gt;SendRetries + 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;IF SendRetries &amp;gt; MaxCapRetries&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Actualizar endTime&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Return (*1)&lt;br&gt;&lt;span style=&quot;&quot;&gt;ELSE&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; Si DeliveryMethod = null&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Elegir method definido en una tabla&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Usar DeliveryMethodRetries como contador&lt;br&gt;&amp;nbsp; &amp;nbsp; A&lt;/span&gt;ctualizar SendRetries + 1&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Actualizar Redis&lt;br&gt;&amp;nbsp; &amp;nbsp; Enviar Code&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Return (*2)&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1170.75" y="1452.5" width="302.5" height="268.75" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-26" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="458" y="1122.25" as="sourcePoint" />
-            <mxPoint x="343" y="1122.25" as="targetPoint" />
+            <mxPoint x="1263" y="1741.25" as="sourcePoint" />
+            <mxPoint x="1148" y="1741.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-27" value="(*2)(200)NoChanges&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;transactionId,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;sendCodeTo,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;expirationTime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="199" y="1129" width="141" height="99.75" as="geometry" />
+          <mxGeometry x="1004" y="1748" width="141" height="99.75" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-28" value="(*1)(400) ValidationError&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="199" y="1050" width="142" height="68" as="geometry" />
+          <mxGeometry x="1004" y="1669" width="142" height="68" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-29" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="433" y="373" width="152" height="267" as="geometry" />
         </mxCell>
-        <mxCell id="vjS_u_h41qtLOI2-cxm3-30" value="VerificationCodeWrapper-{transactionId}&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- RefreshToken&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- UserId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- TransactionId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Email&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- PhoneNumber&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- PartnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- DeviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- FirstName&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- LastName&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- ExpirationInMinutes&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Retires (code input fails)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- &lt;b&gt;SendRetries&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- ComMessages&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="vjS_u_h41qtLOI2-cxm3-29">
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-30" value="VerificationCodeWrapper-{transactionId}&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- RefreshToken&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- UserId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- TransactionId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Email&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- PhoneNumber&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- PartnerId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- DeviceId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- FirstName&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- LastName&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- ExpirationInMinutes&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Retires (code input fails)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- &lt;b&gt;SendRetries&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;- DeliveryMethodRetries&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- ComMessages&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="vjS_u_h41qtLOI2-cxm3-29">
           <mxGeometry width="152" height="267" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-31" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vjS_u_h41qtLOI2-cxm3-29">
@@ -599,7 +599,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-33" value="Para buscar cosas especificas en cache, &lt;u&gt;hay que traer todo.&lt;/u&gt;&lt;br&gt;Para evitar eso se debe &lt;u&gt;cambiar los nombres de las key en cache de cada endpoint,&lt;/u&gt; en ese caso ya se trae menos cantidad de data.&lt;br&gt;&lt;br&gt;&lt;b&gt;Si no se puede cambiar el nombre de la keys, no nos queda otra que pedir transaction id en los request para poder hacer el proceso de retries.&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="-14" width="255.25" height="169.75" as="geometry" />
+          <mxGeometry x="-290" y="-14" width="255.25" height="162" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnC5Mg0veQUYw-qsV5Dj-35" target="PnC5Mg0veQUYw-qsV5Dj-37">
           <mxGeometry relative="1" as="geometry" />
@@ -698,10 +698,10 @@
           </mxCell>
         </UserObject>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-65" value="&lt;a href=&quot;https://dev.azure.com/intermexteam/IntermexOnlineUI/_workitems/edit/63563&quot;&gt;US 63563&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-198" y="274" width="78" height="25" as="geometry" />
+          <mxGeometry x="-207" y="388.5" width="78" height="25" as="geometry" />
         </mxCell>
         <mxCell id="RF3UPXBBXSfgvL-oYM7r-2" value="US relacionada sendVerificationCode.&lt;br&gt;Se debe implementar la misma logica de retry para los endpoints de login e initRegistration.&lt;br&gt;En relacion con US 63953 y 65111" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-267" y="306" width="226" height="87" as="geometry" />
+          <mxGeometry x="-276" y="420.5" width="226" height="87" as="geometry" />
         </mxCell>
         <UserObject label="&lt;a href=&quot;https://dev.azure.com/intermexteam/IntermexOnlineUI/_workitems/edit/65149&quot;&gt;US 65149&lt;/a&gt;" id="RF3UPXBBXSfgvL-oYM7r-3">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -713,6 +713,33 @@
             <mxGeometry x="2345" y="24" width="251" height="25" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="4Ka5pCnOuZrx0M53OU6Z-1" value="Todas las keys en cache tienen el formato&lt;br&gt;VerificationCodeWrapper-{TransactionId}.&lt;br&gt;&lt;br&gt;En Login line 162 se está armando una cache key &lt;b&gt;VerificationCodeWrapper-{Email}&lt;/b&gt;, podriamos usar algo similar para identificar username+partner en caso de que &lt;b&gt;no tengamos transactionId&lt;/b&gt;.&lt;br&gt;&lt;u&gt;Solo se podrá usarlo en un endpoint.&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="162.5" width="254" height="155.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ka5pCnOuZrx0M53OU6Z-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Ka5pCnOuZrx0M53OU6Z-11" target="4Ka5pCnOuZrx0M53OU6Z-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ka5pCnOuZrx0M53OU6Z-11" value="Procesar Reintentos" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="389" y="801.25" width="129" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ka5pCnOuZrx0M53OU6Z-12" value="Value from cache" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="273" y="801" width="102" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ka5pCnOuZrx0M53OU6Z-13" value="Verificar SendRetries &lt;br&gt;&lt;br&gt;SendRetries + 1&lt;br&gt; &lt;br&gt;IF SendRetries &amp;gt; 3&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Actualizar endTime&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;ELSE&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;span style=&quot;&quot;&gt; &lt;/span&gt;A&lt;/span&gt;ctualizar SendRetries + 1&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Return (*2)&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="366" y="880.25" width="176" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ka5pCnOuZrx0M53OU6Z-14" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="1101.25" as="sourcePoint" />
+            <mxPoint x="345" y="1101.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ka5pCnOuZrx0M53OU6Z-15" value="(*2)(200)NoChanges&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;transactionId,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;sendCodeTo,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;expirationTime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="201" y="1108" width="141" height="99.75" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ka5pCnOuZrx0M53OU6Z-16" value="(*1)(400) ValidationError&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="201" y="1029" width="142" height="68" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
