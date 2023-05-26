@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T00:22:03.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="J5IfR7gofCNBy0W0x8I6" version="21.3.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-26T00:25:08.411Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="UbelAPudCk6bzMsnvYMM" version="21.3.3" type="github" pages="2">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
     <mxGraphModel dx="2111" dy="1286" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
@@ -270,7 +270,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TDHgo9thHfWk1XpJ-0_f" name="Page-2">
-    <mxGraphModel dx="881" dy="693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
+    <mxGraphModel dx="1844" dy="1280" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -419,16 +419,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-58" value="Registration&lt;br&gt;Complete" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2952" y="130.75" width="129" height="46" as="geometry" />
+          <mxGeometry x="3019" y="123.75" width="129" height="46" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-59" value="TransactionId&lt;br&gt;DeviceId&lt;br&gt;&lt;b&gt;Bring all parameters from initRegistration&lt;/b&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2808" y="124.75" width="138" height="75.25" as="geometry" />
+          <mxGeometry x="2875" y="117.75" width="138" height="75.25" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-60" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- Existe TransactionId y es validated = true" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2930" y="201.5" width="156" height="62.5" as="geometry" />
+          <mxGeometry x="2997" y="194.5" width="156" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-61" value="&lt;br&gt;Registrar usuario&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;Guardar deviceId, tomar logica del old validateTwoFactor.&lt;br&gt;&lt;br&gt;Si el deliveryMethod en redis es SMS, se debe almacenar isPhoneNumberVerified = true.&lt;br&gt;&lt;br&gt;Delete Redis code.&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2900" y="274" width="224" height="184" as="geometry" />
+          <mxGeometry x="2967" y="267" width="224" height="184" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-64" value="POST&lt;br&gt;/api/v2/login" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="201" y="56" width="233" height="47" as="geometry" />
@@ -440,7 +440,7 @@
           <mxGeometry x="853" y="66" width="233" height="47" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-68" value="POST&lt;br&gt;/api/v2/registration" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2900" y="66" width="233" height="47" as="geometry" />
+          <mxGeometry x="2967" y="59" width="233" height="47" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-69" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1898" y="377" width="192" height="304.12" as="geometry" />
@@ -513,31 +513,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Cr77986iJHJyUe4jSYLj-55" value="Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2356.5" y="136.75" width="129" height="46" as="geometry" />
+          <mxGeometry x="2415.5" y="136.75" width="129" height="46" as="geometry" />
         </mxCell>
         <mxCell id="Cr77986iJHJyUe4jSYLj-56" value="TransactionId&lt;br&gt;Code&lt;br&gt;DeviceId&lt;br&gt;IsTrustedDevice" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2195" y="130.75" width="102" height="80.5" as="geometry" />
+          <mxGeometry x="2254" y="130.75" width="102" height="80.5" as="geometry" />
         </mxCell>
         <mxCell id="Cr77986iJHJyUe4jSYLj-57" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- Existe TransactionId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2317" y="191" width="224" height="46.5" as="geometry" />
+          <mxGeometry x="2376" y="191" width="224" height="46.5" as="geometry" />
         </mxCell>
         <mxCell id="Cr77986iJHJyUe4jSYLj-58" value="Obtener valor de Redis por transactionId&lt;br&gt;&lt;br&gt;Verificar si está bloqueado&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;Verifica Code&lt;br style=&quot;border-color: var(--border-color);&quot;&gt; Si no coincide&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;Procesar Reintentos&lt;/u&gt;&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;Éxito:&lt;br&gt;&lt;b&gt;&amp;nbsp;Actualizar en redis Validated = true&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Return (*2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2293.5" y="248" width="255" height="197" as="geometry" />
+          <mxGeometry x="2352.5" y="248" width="255" height="197" as="geometry" />
         </mxCell>
         <mxCell id="Cr77986iJHJyUe4jSYLj-62" value="New endpoint POST&lt;br&gt;/api/v2/registration/validatetwofactor" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;gradientColor=#97d077;" vertex="1" parent="1">
-          <mxGeometry x="2277.5" y="72" width="280" height="47" as="geometry" />
+          <mxGeometry x="2336.5" y="72" width="280" height="47" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-1" value="(200) No changes&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;&quot;&gt; token&lt;br&gt;&lt;/span&gt;&amp;nbsp;&lt;b style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;+ver que info necesitan&lt;br&gt;&lt;/b&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2749" y="425.25" width="142" height="91" as="geometry" />
+          <mxGeometry x="2816" y="418.25" width="142" height="91" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-2" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PnC5Mg0veQUYw-qsV5Dj-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2939" y="471.25" as="sourcePoint" />
-            <mxPoint x="2900" y="583.25" as="targetPoint" />
+            <mxPoint x="3006" y="464.25" as="sourcePoint" />
+            <mxPoint x="2967" y="576.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-3" value="(400) ValidationError&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; validations&lt;/span&gt;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2749" y="521.25" width="141" height="82" as="geometry" />
+          <mxGeometry x="2816" y="514.25" width="141" height="82" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-5" value="(*1)(400)ValidationError&amp;nbsp;&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="719" y="817" width="142" height="91" as="geometry" />
@@ -627,38 +627,38 @@
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnC5Mg0veQUYw-qsV5Dj-42">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2247" y="97.5" as="targetPoint" />
+            <mxPoint x="2306" y="97.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-42" value="User receives code,&lt;br&gt;app calls" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2015" y="58" width="138" height="80" as="geometry" />
+          <mxGeometry x="2074" y="58" width="138" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-44" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2403" y="823" as="sourcePoint" />
-            <mxPoint x="2312" y="822.5" as="targetPoint" />
+            <mxPoint x="2462" y="823" as="sourcePoint" />
+            <mxPoint x="2371" y="822.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-45" value="(*1)(400)ValidationError&amp;nbsp;&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2168" y="727" width="142" height="91" as="geometry" />
+          <mxGeometry x="2227" y="727" width="142" height="91" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnC5Mg0veQUYw-qsV5Dj-47" target="PnC5Mg0veQUYw-qsV5Dj-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-47" value="Procesar Reintentos" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2344" y="521.25" width="129" height="46" as="geometry" />
+          <mxGeometry x="2403" y="521.25" width="129" height="46" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-48" value="Value from cache" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2228" y="521" width="102" height="46.5" as="geometry" />
+          <mxGeometry x="2287" y="521" width="102" height="46.5" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-49" value="Verificar Retires&lt;br&gt;&lt;br&gt;Retires + 1&lt;br&gt; &lt;br&gt;IF Retires &amp;gt; 3&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Actualizar endTime&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Return (*1)&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;ELSE&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;span style=&quot;&quot;&gt; &lt;/span&gt;A&lt;/span&gt;ctualizar Retires + 1&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Actualizar Redis&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Return (*2)&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2321" y="600.25" width="176" height="210" as="geometry" />
+          <mxGeometry x="2380" y="600.25" width="176" height="210" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-50" value="Contador de retires ya implementado.&lt;br&gt;Quedaria implementar bloqueo de user.&lt;br&gt;En este caso se bloquearia por el userName ingresado." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="2480" y="506.25" width="214" height="76" as="geometry" />
+          <mxGeometry x="2539" y="506.25" width="214" height="76" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-52" value="(*2)(200)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;transactionId,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;sendCodeTo,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;expirationTime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2168" y="826.88" width="141" height="99.75" as="geometry" />
+          <mxGeometry x="2227" y="826.88" width="141" height="99.75" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-53" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -673,24 +673,24 @@
           <mxGeometry x="683" y="424" width="142" height="91" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-56" value="(*2)(200)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; Result = true&lt;/span&gt;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2142.5" y="413.88" width="141" height="82" as="geometry" />
+          <mxGeometry x="2201.5" y="413.88" width="141" height="82" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-57" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2386.5" y="457.38" as="sourcePoint" />
-            <mxPoint x="2295.5" y="456.88" as="targetPoint" />
+            <mxPoint x="2445.5" y="457.38" as="sourcePoint" />
+            <mxPoint x="2354.5" y="456.88" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-58" value="(*1)(400)ValidationError&amp;nbsp;&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;msg = &quot;bloqueado&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2141.5" y="317.88" width="142" height="91" as="geometry" />
+          <mxGeometry x="2200.5" y="317.88" width="142" height="91" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnC5Mg0veQUYw-qsV5Dj-60">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2884" y="95" as="targetPoint" />
+            <mxPoint x="2951" y="88" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-60" value="Code is verified,&lt;br&gt;user can fully registrate" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2644" y="44.75" width="184" height="101.5" as="geometry" />
+          <mxGeometry x="2711" y="37.75" width="184" height="101.5" as="geometry" />
         </mxCell>
         <UserObject label="&lt;a href=&quot;https://dev.azure.com/intermexteam/IntermexOnlineUI/_workitems/edit/65111&quot;&gt;US 65111&lt;/a&gt;" link="https://dev.azure.com/intermexteam/IntermexOnlineUI/_workitems/edit/65111" id="PnC5Mg0veQUYw-qsV5Dj-64">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -705,7 +705,12 @@
         </mxCell>
         <UserObject label="&lt;a href=&quot;https://dev.azure.com/intermexteam/IntermexOnlineUI/_workitems/edit/65149&quot;&gt;US 65149&lt;/a&gt;" id="RF3UPXBBXSfgvL-oYM7r-3">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="2969" y="31" width="78" height="25" as="geometry" />
+            <mxGeometry x="3036" y="24" width="78" height="25" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Se necesita una historia para esto" id="RF3UPXBBXSfgvL-oYM7r-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="2345" y="24" width="251" height="25" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
