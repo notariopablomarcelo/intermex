@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T00:25:08.411Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="UbelAPudCk6bzMsnvYMM" version="21.3.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-26T00:25:53.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="kQ1hJJr_wc7HmFUBL5F2" version="21.3.3" type="github" pages="2">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
     <mxGraphModel dx="2111" dy="1286" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
@@ -270,7 +270,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TDHgo9thHfWk1XpJ-0_f" name="Page-2">
-    <mxGraphModel dx="1844" dy="1280" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
+    <mxGraphModel dx="1593" dy="1127" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -400,7 +400,7 @@
         <mxCell id="vjS_u_h41qtLOI2-cxm3-47" value="Validate 2FA" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="905" y="148" width="129" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="vjS_u_h41qtLOI2-cxm3-52" value="TransactionId&lt;br&gt;VerificationCode&lt;br&gt;DeviceId&lt;br&gt;IsTrustedDevice" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="vjS_u_h41qtLOI2-cxm3-52" value="TransactionId&lt;br&gt;VerificationCode&lt;br&gt;DeviceId&lt;br&gt;IsTrustedDevice&lt;br&gt;(Token)" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="788" y="130.75" width="102" height="80.5" as="geometry" />
         </mxCell>
         <mxCell id="vjS_u_h41qtLOI2-cxm3-53" value="Validaciones básicas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;- Existe TransactionId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
