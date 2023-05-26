@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T17:52:27.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="warHtPZSrDsCiSEJQH58" version="21.3.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-26T18:15:58.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="z6AB-03yS414o4biYnjM" version="21.3.4" type="github" pages="2">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
     <mxGraphModel dx="2931" dy="1520" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
@@ -270,7 +270,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TDHgo9thHfWk1XpJ-0_f" name="Page-2">
-    <mxGraphModel dx="3224" dy="2072" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
+    <mxGraphModel dx="2744" dy="2072" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -599,7 +599,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-33" value="Para buscar cosas especificas en cache, &lt;u&gt;hay que traer todo.&lt;/u&gt;&lt;br&gt;Para evitar eso se debe &lt;u&gt;cambiar los nombres de las key en cache de cada endpoint,&lt;/u&gt; en ese caso ya se trae menos cantidad de data.&lt;br&gt;(new device - Promedio por dia 350)&lt;br&gt;(initRegistration -&amp;nbsp;Promedio por dia 1000)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;b&gt;Si no se puede cambiar el nombre de la keys, no nos queda otra que pedir transaction id en los request para poder hacer el proceso de retries.&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="371" y="76.87" width="255.25" height="184" as="geometry" />
+          <mxGeometry x="292.75" y="75" width="255.25" height="184" as="geometry" />
         </mxCell>
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PnC5Mg0veQUYw-qsV5Dj-35" target="PnC5Mg0veQUYw-qsV5Dj-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -711,7 +711,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="4Ka5pCnOuZrx0M53OU6Z-1" value="Todas las keys en cache tienen el formato&lt;br&gt;VerificationCodeWrapper-{TransactionId}.&lt;br&gt;&lt;br&gt;En Login line 162 se está armando una cache key &lt;b&gt;VerificationCodeWrapper-{Email}&lt;/b&gt;, podriamos usar algo similar para identificar username+partner en caso de que &lt;b&gt;no tengamos transactionId&lt;/b&gt;.&lt;br&gt;&lt;u&gt;Solo se podrá usarlo en un endpoint.&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="371" y="275.37" width="254" height="155.5" as="geometry" />
+          <mxGeometry x="294" y="274.12" width="254" height="155.5" as="geometry" />
         </mxCell>
         <mxCell id="XddeqyTz30aI9wTXXDZV-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XddeqyTz30aI9wTXXDZV-2" target="XddeqyTz30aI9wTXXDZV-4">
           <mxGeometry relative="1" as="geometry" />
@@ -829,6 +829,12 @@
         </mxCell>
         <mxCell id="XddeqyTz30aI9wTXXDZV-43" value="POST&lt;br&gt;/api/v2/verificationCode/resend" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="3611.5" y="59.870000000000005" width="233" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="wBOjge8Rxzy8oWffofUy-1" value="SOLUCION 1:&lt;br&gt;Al iniciar un 2FA, guardar dos registros en cache:&lt;br&gt;&lt;ol&gt;&lt;li&gt;VerificationCodeWrapper-{TransactionId}&lt;/li&gt;&lt;li&gt;{2FAcase}{PartnerId}-{Username}&lt;/li&gt;&lt;/ol&gt;Si se llama al endpoint que inicia el 2FA de nuevo, buscará el code por el key 2, ya que en ese punto no tendremos TransactionId.&lt;br&gt;Al obtener el key comprobamos si esta bloqueado, si no lo está entonces se lo envia al resend." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="292.75" y="441" width="254" height="209.75" as="geometry" />
+        </mxCell>
+        <mxCell id="wBOjge8Rxzy8oWffofUy-2" value="SOLUCION 2:&lt;br&gt;Al iniciar un 2FA, guardar dos registros en cache:&lt;br&gt;&lt;ol&gt;&lt;li&gt;VerificationCodeWrapper-{TransactionId}&lt;/li&gt;&lt;li&gt;{2FAcase}{PartnerId}-{Username}&lt;/li&gt;&lt;/ol&gt;Si se llama al endpoint que inicia el 2FA de nuevo, buscará el code por el key 2, ya que en ese punto no tendremos TransactionId.&lt;br&gt;Al obtener el key comprobamos si esta bloqueado, si no lo está entonces se lo envia al resend." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="294" y="662" width="254" height="209.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
