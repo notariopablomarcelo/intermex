@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T23:59:52.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="NJtz9ZYuYhEQ6anH-SNN" version="21.3.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-26T00:22:03.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="J5IfR7gofCNBy0W0x8I6" version="21.3.3" type="github" pages="2">
   <diagram name="Página-1" id="D3L-0YM1VvHH-5JSDcsk">
-    <mxGraphModel dx="1715" dy="1045" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
+    <mxGraphModel dx="2111" dy="1286" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -270,7 +270,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TDHgo9thHfWk1XpJ-0_f" name="Page-2">
-    <mxGraphModel dx="5888" dy="3744" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
+    <mxGraphModel dx="881" dy="693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -692,6 +692,22 @@
         <mxCell id="PnC5Mg0veQUYw-qsV5Dj-60" value="Code is verified,&lt;br&gt;user can fully registrate" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2644" y="44.75" width="184" height="101.5" as="geometry" />
         </mxCell>
+        <UserObject label="&lt;a href=&quot;https://dev.azure.com/intermexteam/IntermexOnlineUI/_workitems/edit/65111&quot;&gt;US 65111&lt;/a&gt;" link="https://dev.azure.com/intermexteam/IntermexOnlineUI/_workitems/edit/65111" id="PnC5Mg0veQUYw-qsV5Dj-64">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1688.75" y="24" width="78" height="25" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="PnC5Mg0veQUYw-qsV5Dj-65" value="&lt;a href=&quot;https://dev.azure.com/intermexteam/IntermexOnlineUI/_workitems/edit/63563&quot;&gt;US 63563&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-198" y="274" width="78" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RF3UPXBBXSfgvL-oYM7r-2" value="US relacionada sendVerificationCode.&lt;br&gt;Se debe implementar la misma logica de retry para los endpoints de login e initRegistration.&lt;br&gt;En relacion con US 63953 y 65111" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-267" y="306" width="226" height="87" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://dev.azure.com/intermexteam/IntermexOnlineUI/_workitems/edit/65149&quot;&gt;US 65149&lt;/a&gt;" id="RF3UPXBBXSfgvL-oYM7r-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="2969" y="31" width="78" height="25" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
