@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T13:16:45.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="58w7PckyRCxNU3r3J6mU" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T13:48:42.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="pezU81VWCuglVLpboB9R" version="21.6.5" type="github">
   <diagram name="Página-1" id="AzWnXiR79D9hN7R9NY9f">
     <mxGraphModel dx="1274" dy="1550" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,8 +96,8 @@
             <mxPoint x="1162" y="-43" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w4LOsoO-oHkL4fgwLVQ_-4" value="1 ) Cambiar el validator de Username para que acepte un valor token cuando loginType esté dentro de los external providers.&lt;br&gt;&lt;br&gt;2 ) Cambiar el validator de Password para que acepte null si el loginType está dentro de los external providers.&lt;br&gt;&lt;br&gt;3 ) Validar que el loginType esté habilitado para el partner&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;[Wiresearch].[dbo].[WebApi_PartnersLoginTypes]&lt;br&gt;&lt;br&gt;4 ) Obtener el profile info desde&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;4.1 Validar la respuesta y gestionar en caso de error&lt;br&gt;&lt;br&gt;5 ) Llamar a Identity Server para obtener un token enviando en los headers&lt;br&gt;auth-from-external-provider = true&lt;br&gt;&lt;br&gt;6 ) Retornar el token de identity&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;" parent="1" vertex="1">
-          <mxGeometry x="1275" y="-352" width="510" height="259" as="geometry" />
+        <mxCell id="w4LOsoO-oHkL4fgwLVQ_-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Cambios en el endpoint login&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;1 ) Cambiar el validator de Username para que acepte un valor token cuando loginType esté dentro de los external providers.&lt;br&gt;&lt;br&gt;2 ) Cambiar el validator de Password para que acepte null si el loginType está dentro de los external providers.&lt;br&gt;&lt;br&gt;3 ) Validar que el loginType esté habilitado para el partner&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;[Wiresearch].[dbo].[WebApi_PartnersLoginTypes]&lt;br&gt;&lt;br&gt;4 ) Obtener el profile info desde&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;4.1 Validar la respuesta y gestionar en caso de error&lt;br&gt;&lt;br&gt;5 ) Llamar a Identity Server para obtener un token enviando en los headers&lt;br&gt;auth-from-external-provider = true&lt;br&gt;&lt;br&gt;6 ) Retornar el token de identity&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="-381" width="510" height="288" as="geometry" />
         </mxCell>
         <mxCell id="w4LOsoO-oHkL4fgwLVQ_-6" value="Identity Server API&lt;br&gt;POST&amp;nbsp;/connect/token" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1568" y="315" width="273" height="60" as="geometry" />
@@ -155,6 +155,9 @@
             <mxPoint x="1665" y="70" as="sourcePoint" />
             <mxPoint x="1715" y="20" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QnqnScRSnIJUAT3s_OCr-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Config en BD&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;1 ) Agregar login type por partner en&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;[Wiresearch].[dbo].[WebApi_PartnersLoginTypes]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="-567" width="347" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
