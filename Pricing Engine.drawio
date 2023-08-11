@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T18:27:06.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TJN2r2hBzys-N01qUwxT" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T21:25:56.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="L7nmGiVfDlXQ3Hw3jsvz" version="21.6.6" type="github">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
-    <mxGraphModel dx="1834" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1834" dy="1150" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,6 +69,9 @@
             <mxPoint x="97" y="492" as="sourcePoint" />
             <mxPoint x="107" y="769" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3WI0bjOclUP90dEZoIG7-19" value="&lt;h1&gt;Objetivo&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Analizar PE y ver cómo se obtiene actualmente el Base Rate&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-227" y="-97" width="963" height="79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
