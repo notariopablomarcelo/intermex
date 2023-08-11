@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T16:27:39.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZLM3jyy4ogvhJefVkpD0" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T16:28:52.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xB5Gr4wFkWC8NhNOal4y" version="21.6.6" type="github">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
     <mxGraphModel dx="1834" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
           <mxGeometry x="-46" y="426.5" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3WI0bjOclUP90dEZoIG7-10" value="El órden es&amp;nbsp;&lt;br style=&quot;font-size: 14px;&quot;&gt;1 Simulator&lt;br style=&quot;font-size: 14px;&quot;&gt;2 Treasury&lt;br style=&quot;font-size: 14px;&quot;&gt;3 Daily Exchange Rate" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-179" y="174" width="133" height="93" as="geometry" />
+          <mxGeometry x="-201" y="174" width="155" height="93" as="geometry" />
         </mxCell>
         <mxCell id="3WI0bjOclUP90dEZoIG7-11" value="Origin&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Country&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;State&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Currency&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Amount&lt;br&gt;Destination&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Country&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Currency&lt;br&gt;Style&lt;br&gt;Reciving Option&lt;br&gt;Payer&lt;br&gt;Partner&lt;br&gt;Origin Base Rate&lt;br&gt;Is Employee" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-179" y="323" width="125" height="267" as="geometry" />
