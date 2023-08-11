@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T15:06:23.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="PmeczgKqnpWEgt8eVlZf" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T15:45:04.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="E-cfxe0krlCKU1Z-2nzB" version="21.6.6" type="github">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
-    <mxGraphModel dx="1834" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="784" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="3WI0bjOclUP90dEZoIG7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3WI0bjOclUP90dEZoIG7-2" target="3WI0bjOclUP90dEZoIG7-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3WI0bjOclUP90dEZoIG7-2" value="Get Base Rate" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="3WI0bjOclUP90dEZoIG7-2" value="Get Origin Base Rate" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-46" y="192" width="264" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3WI0bjOclUP90dEZoIG7-3" value="From Treasury" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -33,6 +33,21 @@
             <mxPoint x="267" y="411" as="sourcePoint" />
             <mxPoint x="317" y="361" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3WI0bjOclUP90dEZoIG7-9" value="SP&lt;br&gt;FeesAndExchangesByFormOfPayment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-46" y="426.5" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3WI0bjOclUP90dEZoIG7-10" value="El órden es&amp;nbsp;&lt;br&gt;1 Simulator&lt;br&gt;2 Treasury&lt;br&gt;3 Daily Exchange Rate" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-179" y="174" width="133" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="3WI0bjOclUP90dEZoIG7-11" value="Origin&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Country&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;State&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Currency&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Amount&lt;br&gt;Destination&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Country&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Currency&lt;br&gt;Style&lt;br&gt;Reciving Option&lt;br&gt;Payer&lt;br&gt;Partner&lt;br&gt;Origin Base Rate&lt;br&gt;Is Employee" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-179" y="323" width="125" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="3WI0bjOclUP90dEZoIG7-12" value="Desde una config, según Country y Currency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="117" width="273" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3WI0bjOclUP90dEZoIG7-13" value="Desde una config, según Country y Currency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="192" width="273" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
