@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T21:36:38.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="VJP9P8sdFDw3yiJhJt_9" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-16T21:40:03.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="BJoVyTJa-Z-Ul4MXQRsy" version="21.6.8" type="github" pages="2">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
     <mxGraphModel dx="3086" dy="1184" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -194,6 +194,9 @@
         </mxCell>
         <mxCell id="2DPNLBjlpTul-_Ri6KPm-17" value="Del listado de Payers que se obtiene, se itera y se verifica si es PP&lt;br&gt;Si es PP se aplica el rate obtenido en el listado de Get Rates By Payers&lt;br&gt;Si no es PP se aplica el rate obtenido en Get Fx Rate" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="-408" y="652" width="553" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2DPNLBjlpTul-_Ri6KPm-18" value="Capaz en este punto se puede ir a la tabla Prc_FxBase para verificar si existe un FxSource distinto a Imx para el destino.&lt;br&gt;Si existe entonces se podria aplicar el valor de FxBase.&lt;br&gt;Pero también hay que aplicar el proceso de BPS si el AllowBPS = true" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;labelBackgroundColor=#80FF00;" vertex="1" parent="1">
+          <mxGeometry x="145" y="430" width="553" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
