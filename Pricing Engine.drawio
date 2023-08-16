@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T23:34:11.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1BW_qxYcmXkreAhTiTLv" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-16T23:38:10.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LT0XrTkmlNItD0h8oCA4" version="21.6.8" type="github" pages="2">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
     <mxGraphModel dx="2874" dy="1184" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,7 +155,7 @@
         <mxCell id="2DPNLBjlpTul-_Ri6KPm-5" value="Payer Bank" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="-318" y="291" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2DPNLBjlpTul-_Ri6KPm-6" value="Pricing Engine&lt;br&gt;Get Fx Rate" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2DPNLBjlpTul-_Ri6KPm-6" value="Pricing Engine&lt;br&gt;Get Exchange Rates" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-133" y="378" width="264" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2DPNLBjlpTul-_Ri6KPm-7" value="Pricing Engine&lt;br&gt;Get Rates By Payers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
