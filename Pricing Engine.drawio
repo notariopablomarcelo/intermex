@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T21:31:24.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="C-a93rJwnKmteXpFs9NG" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-16T21:35:26.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nk3vVZqPlbHhjHlQjDdK" version="21.6.8" type="github" pages="2">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
     <mxGraphModel dx="3086" dy="1184" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -188,6 +188,9 @@
           <mxGeometry x="0.432" y="-1" relative="1" as="geometry">
             <mxPoint x="-6" y="-26" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2DPNLBjlpTul-_Ri6KPm-15" value="Aca se obtiene un rate general para todos los pagadores, cómo diferencio de un pagador no imx?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;labelBackgroundColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="141" y="383" width="475" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
