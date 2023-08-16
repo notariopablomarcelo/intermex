@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T13:24:12.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="OJkqR-Fon0jKahQ4LjUl" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T13:26:06.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="U7qoeVM5AAXP4OSnGJjH" version="21.6.8" type="github">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
-    <mxGraphModel dx="2634" dy="1150" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2874" dy="1150" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3WI0bjOclUP90dEZoIG7-1" value="Get Fees Exchange Rates" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-201" y="41" width="264" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3WI0bjOclUP90dEZoIG7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3WI0bjOclUP90dEZoIG7-2" target="3WI0bjOclUP90dEZoIG7-4" edge="1">
+        <mxCell id="3WI0bjOclUP90dEZoIG7-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3WI0bjOclUP90dEZoIG7-2" target="3WI0bjOclUP90dEZoIG7-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3WI0bjOclUP90dEZoIG7-2" value="Get Origin Base Rate" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-46" y="192" width="264" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3WI0bjOclUP90dEZoIG7-3" value="From Treasury" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="330" y="117" width="264" height="60" as="geometry" />
+          <mxGeometry x="332" y="192" width="264" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3WI0bjOclUP90dEZoIG7-4" value="From Simulator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="330" y="192" width="264" height="60" as="geometry" />
+          <mxGeometry x="332" y="117" width="264" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3WI0bjOclUP90dEZoIG7-5" value="From Daily Exchange Rate" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="330" y="267" width="264" height="60" as="geometry" />
@@ -119,13 +119,13 @@
           <mxGeometry x="615" y="267" width="317" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DYW4CAa3zaAFY--6UjeH-2" value="&lt;div&gt;SELECT TOP(1) @BaseRate = [p].[ExRateCost]&lt;/div&gt;&lt;div&gt;FROM dbo.[Prc_ExRateSimulation] AS [p]&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WHERE ([p].[SimCountry] = &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;@DestinationCountry&lt;/span&gt;) AND ([p].[SimStatus] = N&#39;W&#39;)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;ORDER BY [p].[SimDate] DESC, [p].[SimulationID] DESC&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="928" y="33.5" width="580" height="83.5" as="geometry" />
+          <mxGeometry x="925" y="33.5" width="580" height="83.5" as="geometry" />
         </mxCell>
-        <mxCell id="DYW4CAa3zaAFY--6UjeH-3" value="&lt;div&gt;SELECT TOP(1) @BaseRate = [t3].[PurchaseFX]&lt;/div&gt;&lt;div&gt;FROM dbo.[Tr_PurchasesSalesProjectionProposalPurchases] AS [t]&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;INNER JOIN dbo.[Tr_SalesProjection_Proposal_Purchases] AS [t0] ON [t].[SalesProjectionProposalPurchasesId] = [t0].[PurchaseId]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;INNER JOIN dbo.[Tr_SalesProjection_Proposal] AS [t1] ON [t0].[ProposalId] = [t1].[ProposalId]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;INNER JOIN dbo.[Tr_SalesProjections] AS [t2] ON [t1].[SaleProjectionId] = [t2].[SaleProjectionId]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;INNER JOIN dbo.[Tr_Purchases] AS [t3] ON [t].[PurchaseId] = [t3].[PurchaseId]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WHERE (((UPPER(LTRIM(RTRIM([t2].[Currency]))) = &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;@DestinationCurrency&lt;/span&gt;) AND [t0].[RecurringPurchaseId] IS NULL) AND ([t3].[PurchaseStatus] &amp;lt;&amp;gt; N&#39;C&#39;)) AND (UPPER(LTRIM(RTRIM([t3].[Country]))) = &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;@DestinationCountry&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;ORDER BY CONVERT(date, [t2].[ProjectionDate]) DESC, [t].[SalesProjectionProposalPurchasesId]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="928" y="149" width="1266" height="128.25" as="geometry" />
+        <mxCell id="DYW4CAa3zaAFY--6UjeH-3" value="&lt;div&gt;SELECT TOP(1) @BaseRate = [t3].[PurchaseFX]&lt;/div&gt;&lt;div&gt;FROM dbo.[Tr_PurchasesSalesProjectionProposalPurchases] AS [t]&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;INNER JOIN dbo.[Tr_SalesProjection_Proposal_Purchases] AS [t0] ON [t].[SalesProjectionProposalPurchasesId] = [t0].[PurchaseId]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;INNER JOIN dbo.[Tr_SalesProjection_Proposal] AS [t1] ON [t0].[ProposalId] = [t1].[ProposalId]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;INNER JOIN dbo.[Tr_SalesProjections] AS [t2] ON [t1].[SaleProjectionId] = [t2].[SaleProjectionId]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;INNER JOIN dbo.[Tr_Purchases] AS [t3] ON [t].[PurchaseId] = [t3].[PurchaseId]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WHERE (((UPPER(LTRIM(RTRIM([t2].[Currency]))) = &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;@DestinationCurrency&lt;/span&gt;) AND [t0].[RecurringPurchaseId] IS NULL) AND ([t3].[PurchaseStatus] &amp;lt;&amp;gt; N&#39;C&#39;))&amp;nbsp;&lt;/div&gt;&lt;div&gt;AND (UPPER(LTRIM(RTRIM([t3].[Country]))) = &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;@DestinationCountry&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;ORDER BY CONVERT(date, [t2].[ProjectionDate]) DESC, [t].[SalesProjectionProposalPurchasesId]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="925" y="143.5" width="1266" height="143" as="geometry" />
         </mxCell>
         <mxCell id="DYW4CAa3zaAFY--6UjeH-4" value="&lt;div&gt;SELECT TOP(1)&amp;nbsp; @BaseRate = [p].[ExRateCost]&lt;/div&gt;&lt;div&gt;FROM dbo.[Prc_DailyExRateGain] AS [p]&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WHERE (UPPER(LTRIM(RTRIM([p].[DestCurrencyCode]))) = &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;@DestinationCurrency&lt;/span&gt;) AND (UPPER(LTRIM(RTRIM([p].[DestCountry]))) = &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;@DestinationCountry&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;ORDER BY [p].[GainDate] DESC, [p].[DailyExrateGainId]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="928" y="297" width="1266" height="82" as="geometry" />
+          <mxGeometry x="925" y="297" width="1266" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
