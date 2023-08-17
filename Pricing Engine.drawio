@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T13:30:45.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FTlL8yYqsOiUHeKUHJ_5" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-17T14:45:32.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="yjU5-R0-gBUzMa4e2zhW" version="21.6.8" type="github" pages="2">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
-    <mxGraphModel dx="2074" dy="1184" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2286" dy="1184" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -263,6 +263,12 @@
         </mxCell>
         <mxCell id="kwfKW_DqGkIRnR6Lc1RT-1" value="Se necesita indicar que un banco es de visa o de imx para aplicar el rate correcto" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;labelBackgroundColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="145" y="261" width="475" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1x__O1n0pv8a3ce2R9Ko-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="RFXM7rYlNF7DJsxFUGoo-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-372" y="603" as="sourcePoint" />
+            <mxPoint x="19" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
