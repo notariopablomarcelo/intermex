@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T12:29:14.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="drH6uQVJGS2LwTVoLVlU" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-17T13:30:45.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FTlL8yYqsOiUHeKUHJ_5" version="21.6.8" type="github" pages="2">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
     <mxGraphModel dx="2074" dy="1184" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
         <mxCell id="2DPNLBjlpTul-_Ri6KPm-6" value="Pricing Engine API&lt;br&gt;GET&lt;br&gt;PricingEngine/GetExchangeRates" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-133" y="378" width="264" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2DPNLBjlpTul-_Ri6KPm-7" value="Pricing Engine API&lt;br style=&quot;font-size: 13px;&quot;&gt;GET&lt;br style=&quot;font-size: 13px;&quot;&gt;PricingEngine/GetExchangeRates ByPayers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2DPNLBjlpTul-_Ri6KPm-7" value="Pricing Engine API&lt;br style=&quot;font-size: 13px;&quot;&gt;GET&lt;br style=&quot;font-size: 13px;&quot;&gt;PricingEngine/GetExchangeRatesByPayers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-133" y="500" width="264" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2DPNLBjlpTul-_Ri6KPm-8" value="Solo obtiene los payers que son PP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
