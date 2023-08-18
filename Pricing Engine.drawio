@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T14:06:51.397Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0RS_nRO8G32uBLuaTMvP" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-18T14:22:04.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2eIwVZ_eBR30io9s3XfD" version="21.6.8" type="github" pages="5">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
     <mxGraphModel dx="1834" dy="1150" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -468,6 +468,21 @@
         <mxCell id="1" parent="0" />
         <mxCell id="queGkdWoETJifgv2Tkj7-3" value="&lt;h1&gt;SP FeesAndExchangesByFormOfPayment&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-469" y="-126" width="511" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="queGkdWoETJifgv2Tkj7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="queGkdWoETJifgv2Tkj7-4" target="queGkdWoETJifgv2Tkj7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="queGkdWoETJifgv2Tkj7-4" value="Obtener Base Rate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-469" y="6" width="547" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="queGkdWoETJifgv2Tkj7-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="queGkdWoETJifgv2Tkj7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-195" y="-64" as="sourcePoint" />
+            <mxPoint x="225" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="queGkdWoETJifgv2Tkj7-6" value="Obtener Base Rate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-469" y="140" width="547" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
