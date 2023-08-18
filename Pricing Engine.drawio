@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T13:29:03.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KjFNEkKJ8Hdy3EfMBAg9" version="21.6.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-18T14:06:51.397Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0RS_nRO8G32uBLuaTMvP" version="21.6.8" type="github" pages="5">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
     <mxGraphModel dx="1834" dy="1150" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -457,6 +457,17 @@
         </mxCell>
         <mxCell id="2AoRWWv3aMZXK2NJYX0R-7" value="-&amp;gt; Si se quiere obtener un rate pero enviando payerCode = null, entonces seleccionar el preferencial&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;-&amp;gt; Si se quiere obtener un rate de un payerCode, seleccionar el registro con ese payerCode" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="634" y="239" width="425" height="109" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fgKchv4SP78wpFtcw4MK" name="Página-5">
+    <mxGraphModel dx="2234" dy="1150" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="queGkdWoETJifgv2Tkj7-3" value="&lt;h1&gt;SP FeesAndExchangesByFormOfPayment&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-469" y="-126" width="511" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
