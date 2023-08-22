@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T12:34:24.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="knTsh3nU4mzD1EEME8nw" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-22T14:06:06.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0hIB0mnPb20elaGoQmL0" version="21.6.8" type="github" pages="6">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
     <mxGraphModel dx="2074" dy="1150" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -498,6 +498,45 @@
         </mxCell>
         <mxCell id="dQR1dlIg--973G6PznKJ-3" value="https://imx-services-qa.azure-api.net/pricing/api/feesrates?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-462" y="-191" width="449" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gaR6rR3FSk6sbtGzJntz" name="Página-6">
+    <mxGraphModel dx="2074" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h4uLTGppXN26tv6PkQ7H-1" value="PriceDefinitions" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="305" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4uLTGppXN26tv6PkQ7H-2" value="FeeBands" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="177" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4uLTGppXN26tv6PkQ7H-3" value="ExchangeRates" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="177" y="353" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4uLTGppXN26tv6PkQ7H-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="h4uLTGppXN26tv6PkQ7H-1" target="h4uLTGppXN26tv6PkQ7H-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="332" y="386" as="sourcePoint" />
+            <mxPoint x="492" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4uLTGppXN26tv6PkQ7H-5" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="h4uLTGppXN26tv6PkQ7H-4">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4uLTGppXN26tv6PkQ7H-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="h4uLTGppXN26tv6PkQ7H-1" target="h4uLTGppXN26tv6PkQ7H-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="19" y="315" as="sourcePoint" />
+            <mxPoint x="187" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4uLTGppXN26tv6PkQ7H-7" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="h4uLTGppXN26tv6PkQ7H-6">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
