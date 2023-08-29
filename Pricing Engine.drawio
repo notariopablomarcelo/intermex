@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T19:07:28.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kIrWNR12lXUzuMzD-q9v" version="21.6.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-29T19:26:10.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="SJqkI0F_TMsHOpidGqlA" version="21.6.9" type="github" pages="7">
   <diagram name="Página-1" id="OCQVt_zFbdHCXUs0rtO8">
     <mxGraphModel dx="1834" dy="1150" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -622,22 +622,44 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="bXm9PDS5FyM1IuBnAx5M" name="Página-7">
-    <mxGraphModel dx="1434" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="f6duemSBl5IC7SwVEAMG-2" value="Obtener los rates de cada payer desde la tabla &lt;b&gt;Prc_FxBase&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Payer | FxRate&lt;br&gt;&lt;br&gt;Obtener desde PriceDefinitions con sus ExchangeRates por los filtros&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PriceDefinitionId | ExchangeRateId&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Si hay más de uno, significa que no se filtró por FormOfPaymentTypeId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;E&lt;/span&gt;l Id = 6 no se tiene en cuenta en el backend y se lo filtra&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Se puede tener entonces un listado de:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;ExchangeRateId | BPSFromBase&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1002 | 80.00&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1003 | 80.00&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1772 | 90.00&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Obtener el BPS peor ( de mayor valor )&lt;br&gt;&lt;br&gt;Obtener los PP a partir del PriceDefinitionId y de Vigencia" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="9" y="134" width="827" height="382" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="iphV8ns8525c3TwMftq1" name="Página-8">
     <mxGraphModel dx="1434" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_jEnfPOL5tb67B0wahKp-1" value="WireSearch&lt;br style=&quot;font-size: 14px;&quot;&gt;ViewPayersForBankDeposit" style="whiteSpace=wrap;html=1;align=center;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="18" y="137" width="292" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="_jEnfPOL5tb67B0wahKp-2" value="WirePricing&lt;br&gt;Prc_FxBase" style="whiteSpace=wrap;html=1;align=center;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="411" y="137" width="292" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="QaWCJ7N-D4nZPOcA-Z5b-2" value="PayerCode" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="67" y="9" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaWCJ7N-D4nZPOcA-Z5b-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_jEnfPOL5tb67B0wahKp-1" target="QaWCJ7N-D4nZPOcA-Z5b-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="311" as="sourcePoint" />
+            <mxPoint x="437" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaWCJ7N-D4nZPOcA-Z5b-4" value="PayerCode" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="403" y="11" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaWCJ7N-D4nZPOcA-Z5b-5" value="FxBase" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="531" y="21" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaWCJ7N-D4nZPOcA-Z5b-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_jEnfPOL5tb67B0wahKp-2" target="QaWCJ7N-D4nZPOcA-Z5b-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174" y="147" as="sourcePoint" />
+            <mxPoint x="127" y="59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaWCJ7N-D4nZPOcA-Z5b-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QaWCJ7N-D4nZPOcA-Z5b-5" target="_jEnfPOL5tb67B0wahKp-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="623" y="101" as="sourcePoint" />
+            <mxPoint x="463" y="61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
