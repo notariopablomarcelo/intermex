@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T16:48:50.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="y9PAE9LM_-6jFRN2THSu" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T17:09:50.610Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="i-n8tgnBqup1R5j-GQmZ" version="22.1.21" type="github">
   <diagram name="Página-1" id="Z9ccmkdessQVMvPRhgoj">
     <mxGraphModel dx="1034" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-26" value="P3&lt;br&gt;Aplicar&lt;br&gt;Price Definitions" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="635" y="917" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-27" value="P3: Proceso de Pricing Definition" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1058" y="546" width="540" height="405" as="geometry" />
         </mxCell>
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-28" value="PE&lt;br&gt;PriceDefinitions" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -134,6 +134,9 @@
           <mxGeometry x="0.0758" y="-1" relative="1" as="geometry">
             <mxPoint x="21" y="-11" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-42" value="@PartnerId&lt;br&gt;@OriginCountryName&lt;br&gt;@OriginStateCode&lt;br&gt;@DestinationCountryCode&lt;br&gt;@DestinationCountryName&lt;br&gt;@DestinationCurrencyCode&lt;br&gt;@OriginCountryCode&lt;br&gt;@StyleId&lt;br&gt;@ReceivingOptionId&lt;br&gt;@FormsOfPaymentsTypeId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="386" width="292" height="157" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
