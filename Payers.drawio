@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T18:26:29.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_aN1uspNltqQT9OXgt1_" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T18:33:32.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0E5O1XzaJ6w58E_RAn7S" version="22.1.21" type="github">
   <diagram name="Página-1" id="Z9ccmkdessQVMvPRhgoj">
-    <mxGraphModel dx="2234" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2474" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,17 +199,44 @@
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-65" value="Obtener&lt;br&gt;Pagador&lt;br&gt;Banco" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-222" y="412" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-67" value="Obtener Pagador Pickup&lt;br&gt;WS&lt;br&gt;SP&amp;nbsp;&lt;br&gt;WebApi_Payer_GetPayersAndBranchesByCountry_Payers_new" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-67" value="Obtener Pagador Pickup&lt;br&gt;WS&lt;br&gt;SP&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;WebApi_Payer_GetPayersAndBranchesByCountry_Payers_new&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-57" y="684" width="400" height="227" as="geometry" />
         </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-68" value="View&lt;br&gt;WS&lt;br&gt;ViewGetBranchesAndCurrenciesLimits" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-68" value="WS&lt;br&gt;View&lt;br&gt;ViewGetBranchesAndCurrenciesLimits" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="22" y="784.5" width="231" height="99.5" as="geometry" />
         </mxCell>
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-69" value="@PreparationId&lt;br&gt;@CurrentWebLanguageId&lt;br&gt;@DestCountryAbbr&lt;br&gt;@TranTypeId&lt;br&gt;@DeliveryType&lt;br&gt;@OriAmount&lt;br&gt;@OriCurrency&lt;br&gt;@DestAmount&lt;br&gt;@DestCurrency&lt;br&gt;@DestState&lt;br&gt;@DestCity&lt;br&gt;@PartnerId&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="12" y="498" width="292" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-70" value="Obtener Pagador Banco&lt;br&gt;WS&lt;br&gt;View&amp;nbsp;&lt;br&gt;ViewPayersForBankDeposit" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-485" y="684" width="400" height="227" as="geometry" />
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-70" value="Obtener Pagador Banco&lt;br&gt;WS&lt;br&gt;View&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;ViewPayersForBankDeposit&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-485" y="684" width="400" height="467" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-71" value="@PartnerId&lt;br&gt;@DestinationCountryCode&lt;br&gt;@DestinationCurrencyCode&lt;br&gt;@OriginAmount&lt;br&gt;@OriginCurrencyCode&lt;br&gt;@DestinationAmount&lt;br&gt;@DestinationCurrencyCode" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="564" width="292" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-72" value="WS&lt;br&gt;Agencies" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-466" y="768" width="94" height="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-73" value="WS&lt;br&gt;AgPayers" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-352" y="768" width="94" height="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-74" value="WS&lt;br&gt;AgPayerPayCurrencies" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-236" y="768" width="131" height="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-75" value="WS&lt;br&gt;AgPayerDeptBanks" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-469" y="884" width="113" height="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-76" value="WS&lt;br&gt;WebAgent_PartnerAvailablePayers" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-332" y="884" width="215" height="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-77" value="WS&lt;br&gt;Branches" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-459.5" y="1000" width="94" height="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-78" value="WS&lt;br&gt;Geo_Countries" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-341" y="1000" width="94" height="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-79" value="WS&lt;br&gt;BankBranchLabels" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-222" y="1000" width="118.5" height="99.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
