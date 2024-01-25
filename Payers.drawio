@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T18:50:20.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="whloaLiQ7pZgFPLYCy3M" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T18:52:46.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Jke64nABgEmByoc7a76l" version="22.1.21" type="github">
   <diagram name="Página-1" id="Z9ccmkdessQVMvPRhgoj">
     <mxGraphModel dx="2474" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-26" value="P3&lt;br&gt;Proceso&lt;br&gt;Price Definitions" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="642.5" y="1045" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-27" value="&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;Proceso de Price Definitions&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-27" value="&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;P3: Proceso de Price Definitions&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1058" y="546" width="540" height="549" as="geometry" />
         </mxCell>
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-28" value="PE&lt;br&gt;PriceDefinitions" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
