@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T19:42:07.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="a7osIDt-joVHnbC1Ulin" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T19:42:53.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="c6X2MlO2rR4mHaGf1i2T" version="22.1.21" type="github">
   <diagram name="Página-1" id="Z9ccmkdessQVMvPRhgoj">
     <mxGraphModel dx="2634" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,6 +297,12 @@
         </mxCell>
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-103" value="PE&lt;br&gt;SP &lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;ExchangesRatesByPayers_v2&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="147" y="693" width="309" height="455" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-104" value="P4&lt;br&gt;Obtener&lt;br&gt;Pagadores" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="261.5" y="764" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-105" value="P2&lt;br&gt;Use Reference&lt;br&gt;Payer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="261.5" y="854" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
