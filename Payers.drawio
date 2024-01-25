@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T17:20:02.452Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5mi0ynWllvRkuNPFMftq" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T17:40:01.711Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_H37xOOJt1uHKNSsVY5_" version="22.1.21" type="github">
   <diagram name="Página-1" id="Z9ccmkdessQVMvPRhgoj">
     <mxGraphModel dx="1034" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-25" value="Apply BPS?" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="638" y="841" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-26" value="P3&lt;br&gt;Aplicar&lt;br&gt;Price Definitions" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-26" value="P3&lt;br&gt;Proceso&lt;br&gt;Price Definitions" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="638" y="937" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-27" value="P3: Proceso de Pricing Definition" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
