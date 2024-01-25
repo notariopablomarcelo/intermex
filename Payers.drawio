@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T20:32:59.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UakZKzBeM7VYPMiSY4rq" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T20:33:57.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZdHxV0EA176Qj8Ahvju9" version="22.1.21" type="github">
   <diagram name="Página-1" id="Z9ccmkdessQVMvPRhgoj">
     <mxGraphModel dx="2634" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -300,9 +300,6 @@
         </mxCell>
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-104" value="P4&lt;br&gt;Obtener&lt;br&gt;Pagadores" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="261.5" y="764" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-106" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="859" y="359" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-107" value="Buscar Base Rate" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="204" y="864" width="200" height="60" as="geometry" />
