@@ -1,59 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T16:31:36.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JUW1Q9IMILP7bfbI76NT" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T16:35:59.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Faho2-IjSqCzE3d-LFYY" version="22.1.21" type="github">
   <diagram name="Página-1" id="Z9ccmkdessQVMvPRhgoj">
-    <mxGraphModel dx="1434" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-9" value="P1: Obtener Base Rate" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="537" y="-77" width="307" height="413" as="geometry" />
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="529" y="450" width="309" height="338" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="966" y="-123" width="251" height="251" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-17" value="&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;P2: Use Reference Payer&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-22">
+          <mxGeometry y="41" width="237" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-18" value="WS&lt;br&gt;Fn&lt;br&gt;fn_WebAgentPartnerSettings" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-22">
+          <mxGeometry x="30" y="80" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-19" value="&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;PartnerId&lt;br&gt;DestinatiionCountryAbbr&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-22">
+          <mxGeometry x="40" width="211" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-20" value="&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;UseReferencePayerBaseRate: bit&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-22">
+          <mxGeometry x="30" y="212" width="211" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="529" y="-170" width="307" height="545" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-9" value="&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;P1: Obtener Base Rate&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-23">
+          <mxGeometry y="86" width="307" height="413" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-12" value="&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;PartnerId&lt;br&gt;DestinationCountryName&lt;br&gt;DestinationCurrencyCode&lt;br&gt;OriginCurrencyCode&lt;br&gt;PayerId&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-23">
+          <mxGeometry x="66" width="211" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-14" value="&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;Base Rate&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-23">
+          <mxGeometry x="83" y="505" width="211" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-15" value="P2&lt;br&gt;Use Reference&lt;br&gt;Payer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-23">
+          <mxGeometry x="111" y="122" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-23">
+          <mxGeometry x="18" y="212" width="270" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-2" value="WP&lt;br&gt;Prc_FxBase" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-23">
+          <mxGeometry x="32" y="242" width="88" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="2KvOPoVdGtIPZ7EIpbnL-23" source="2KvOPoVdGtIPZ7EIpbnL-2" target="2KvOPoVdGtIPZ7EIpbnL-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="568" as="sourcePoint" />
+            <mxPoint x="-100" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-3" value="WS&lt;br&gt;AgPayers" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-23">
+          <mxGeometry x="180" y="242" width="88" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="2KvOPoVdGtIPZ7EIpbnL-23" source="2KvOPoVdGtIPZ7EIpbnL-4" target="2KvOPoVdGtIPZ7EIpbnL-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="568" as="sourcePoint" />
+            <mxPoint x="-100" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-4" value="WS&lt;br&gt;Agencies" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-23">
+          <mxGeometry x="180" y="367" width="88" height="98" as="geometry" />
         </mxCell>
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-1" value="P1&lt;br&gt;Obtener&lt;br&gt;Base Rate" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="308" y="375" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-12" value="PartnerId&lt;br&gt;DestinationCountryName&lt;br&gt;DestinationCurrencyCode&lt;br&gt;OriginCurrencyCode&lt;br&gt;PayerId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="603" y="-163" width="211" height="88" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-14" value="Base Rate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="342" width="211" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-15" value="P2&lt;br&gt;Use Reference&lt;br&gt;Payer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="648" y="-41" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="49" width="270" height="261" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-2" value="WP&lt;br&gt;Prc_FxBase" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="569" y="79" width="88" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2KvOPoVdGtIPZ7EIpbnL-2" target="2KvOPoVdGtIPZ7EIpbnL-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="387" y="405" as="sourcePoint" />
-            <mxPoint x="437" y="355" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-3" value="WS&lt;br&gt;AgPayers" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="717" y="79" width="88" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2KvOPoVdGtIPZ7EIpbnL-4" target="2KvOPoVdGtIPZ7EIpbnL-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="387" y="405" as="sourcePoint" />
-            <mxPoint x="437" y="355" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-4" value="WS&lt;br&gt;Agencies" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="717" y="204" width="88" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-17" value="P2: Use Reference Payer" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="966" y="-82" width="237" height="171" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-18" value="WS&lt;br&gt;Fn&lt;br&gt;fn_WebAgentPartnerSettings" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="996" y="-43" width="177" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-19" value="PartnerId&lt;br&gt;DestinatiionCountryAbbr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1006" y="-123" width="211" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-20" value="UseReferencePayerBaseRate: bit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="996" y="89" width="211" height="39" as="geometry" />
+          <mxGeometry x="642.5" y="481" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
