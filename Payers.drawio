@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T18:55:31.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qPpvGoG19CROgEpFAtgY" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T18:55:41.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lD5Q6PL5KYiuzDFepRbi" version="22.1.21" type="github">
   <diagram name="Página-1" id="Z9ccmkdessQVMvPRhgoj">
     <mxGraphModel dx="2234" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -274,7 +274,7 @@
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-97" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-192" y="265" width="189" height="189" as="geometry" />
         </mxCell>
-        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-63" value="P4&lt;br&gt;Obtener&lt;br&gt;Payers" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-97">
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-63" value="P4&lt;br&gt;Obtener&lt;br&gt;Pagadores" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-97">
           <mxGeometry width="189" height="189" as="geometry" />
         </mxCell>
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-64" value="P5&lt;br&gt;Obtener&lt;br&gt;Pagador&lt;br&gt;Pickup" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="2KvOPoVdGtIPZ7EIpbnL-97">
