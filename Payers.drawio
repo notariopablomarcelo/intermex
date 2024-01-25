@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T16:28:05.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XcrLYsYLD2WzNAik-B4L" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T16:31:10.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NcqUCeCYSKzvfwMdCxvo" version="22.1.21" type="github">
   <diagram name="Página-1" id="Z9ccmkdessQVMvPRhgoj">
     <mxGraphModel dx="1434" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,16 @@
           <mxGeometry x="717" y="204" width="88" height="98" as="geometry" />
         </mxCell>
         <mxCell id="2KvOPoVdGtIPZ7EIpbnL-17" value="P2: Use Reference Payer" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="966" y="-82" width="237" height="237" as="geometry" />
+          <mxGeometry x="966" y="-82" width="237" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-18" value="WS&lt;br&gt;Fn&lt;br&gt;fn_WebAgentPartnerSettings" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="996" y="-43" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-19" value="PartnerId&lt;br&gt;DestinatiionCountryAbbr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="-123" width="211" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="2KvOPoVdGtIPZ7EIpbnL-20" value="UseReferencePayerBaseRate: bit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="996" y="89" width="211" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
