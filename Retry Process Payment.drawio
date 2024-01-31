@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T19:53:02.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GleHXYa3GbUeZ34c2UAk" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T19:53:35.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="weE57vE33pdQ6dZgCIPx" version="23.0.2" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="2634" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -245,9 +245,9 @@
             <mxPoint x="-70" y="852" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ib3yN-KZ3-Id2-LQBJem-61" value="Gateway Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-60">
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-61" value="&amp;nbsp;WebAgentUserPaymentMethodInfo&lt;br&gt;GatewayToken" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-60">
           <mxGeometry x="0.5266" y="-2" relative="1" as="geometry">
-            <mxPoint x="-2" y="-13" as="offset" />
+            <mxPoint x="-49" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-62" value="thow Exception si no encuentra registro" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
