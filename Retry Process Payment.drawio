@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T17:46:53.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="wPCjvBEc4rYLgX4qqBCc" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T17:50:10.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="6QKVMVdVQz8p5BvdR2gn" version="23.0.2" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="1834" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -118,6 +118,15 @@
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-29" value="List WPP Pending" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="359.0025718912261" y="223.99545525044994" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-30" value="Done" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902" y="-320" width="78" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-12" target="ib3yN-KZ3-Id2-LQBJem-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="849" y="-254" as="sourcePoint" />
+            <mxPoint x="882" y="-304" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
