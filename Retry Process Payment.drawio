@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T19:53:35.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="weE57vE33pdQ6dZgCIPx" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T19:53:53.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0LLosR75ejEiSjsgdMK0" version="23.0.2" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="2634" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -392,6 +392,11 @@
               <mxPoint x="-1006" y="1421" />
               <mxPoint x="-823" y="1421" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-92" value="WebAgentUserPaymentMethodInfo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-88">
+          <mxGeometry x="0.8844" y="1" relative="1" as="geometry">
+            <mxPoint x="-33" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-89" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.004;exitY=0.581;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-64" target="ib3yN-KZ3-Id2-LQBJem-56">
