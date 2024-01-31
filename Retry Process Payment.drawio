@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T23:17:17.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="rQkG26WRa6k-__Has-f4" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T23:19:11.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="WbWk0_uRHNohdyQIHxUe" version="23.0.2" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="2634" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -714,6 +714,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="18" y="2517" as="sourcePoint" />
             <mxPoint x="68" y="2467" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-162" value="StatusCode&lt;br&gt;WirePendingPayment wirePendingPaymentId" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="2560" width="272" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-163" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ib3yN-KZ3-Id2-LQBJem-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-731" y="2603" as="sourcePoint" />
+            <mxPoint x="-311" y="2667" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
