@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T19:14:19.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="a0a8OSelSjXYt_gjRwgz" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T19:29:51.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Mi6sfKje9DVWczSWjLRf" version="23.0.2" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
-    <mxGraphModel dx="1834" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2634" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,6 +218,74 @@
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-55" value="Wire&lt;br&gt;WirePendingPayment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="49" y="722" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-56" value="LoadPaymentMethod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="807" width="213" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-57" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ib3yN-KZ3-Id2-LQBJem-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-69" y="1156" as="sourcePoint" />
+            <mxPoint x="-23" y="783" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="ib3yN-KZ3-Id2-LQBJem-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="821" as="sourcePoint" />
+            <mxPoint x="213" y="887" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-59" value="Wire&amp;nbsp;userPaymentMethodId&lt;br&gt;Wire pinNumber" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-58">
+          <mxGeometry x="0.4397" y="1" relative="1" as="geometry">
+            <mxPoint x="-48" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="163" y="937" as="sourcePoint" />
+            <mxPoint x="-70" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-61" value="Gateway Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-60">
+          <mxGeometry x="0.5266" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-62" value="thow Exception si no encuentra registro" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-633" y="746" width="153" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-63" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-56" target="ib3yN-KZ3-Id2-LQBJem-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-77" y="937" as="sourcePoint" />
+            <mxPoint x="-27" y="887" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-64" value="WT&lt;br&gt;WebAgent_UserPaymentMethodInfo" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-865" y="807" width="232" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=30.75;entryPerimeter=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-56" target="ib3yN-KZ3-Id2-LQBJem-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-257" y="937" as="sourcePoint" />
+            <mxPoint x="-207" y="887" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-66" value="userPaymentMethodId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-65">
+          <mxGeometry x="0.4404" y="-2" relative="1" as="geometry">
+            <mxPoint x="21" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-67" value="ProcessPayment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-494.5" y="908" width="224.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-68" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="ib3yN-KZ3-Id2-LQBJem-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-68" y="921" as="sourcePoint" />
+            <mxPoint x="-207" y="887" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-69" value="Wire&lt;br&gt;Gateway Token" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-68">
+          <mxGeometry x="0.4848" y="-3" relative="1" as="geometry">
+            <mxPoint x="-45" y="-14" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
