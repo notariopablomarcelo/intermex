@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T17:50:10.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="6QKVMVdVQz8p5BvdR2gn" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T19:09:34.603Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="NHFIZOLS41K6uy78Eg6R" version="23.0.2" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="1834" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -126,6 +126,77 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="849" y="-254" as="sourcePoint" />
             <mxPoint x="882" y="-304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-32" value="Method&lt;br&gt;RetryPaymentsAsync" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="143" y="353" width="218" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-33" value="WDE&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="436" y="435" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-34" value="WP&lt;br&gt;CrmPromotions" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="436" y="537" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209" y="257" as="sourcePoint" />
+            <mxPoint x="208.5" y="347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-36" value="wirePendingPayment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="211" y="274" width="123.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-37" value="N veces" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="211" y="328" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" edge="1" parent="1" target="ib3yN-KZ3-Id2-LQBJem-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="253" y="463" as="sourcePoint" />
+            <mxPoint x="648" y="387" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-41" value="WireDataEntryId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-39">
+          <mxGeometry x="0.1259" y="-2" relative="1" as="geometry">
+            <mxPoint x="29" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="598" y="437" as="sourcePoint" />
+            <mxPoint x="253" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-42" value="Wire" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-40">
+          <mxGeometry x="0.095" y="2" relative="1" as="geometry">
+            <mxPoint x="-57" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" edge="1" parent="1" target="ib3yN-KZ3-Id2-LQBJem-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="565" as="sourcePoint" />
+            <mxPoint x="648" y="387" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-44" value="Wire.CrmPromotionId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-43">
+          <mxGeometry x="-0.356" y="3" relative="1" as="geometry">
+            <mxPoint x="67" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="598" y="437" as="sourcePoint" />
+            <mxPoint x="252" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-46" value="CrmPromotion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-45">
+          <mxGeometry x="-0.072" y="2" relative="1" as="geometry">
+            <mxPoint x="-54" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ib3yN-KZ3-Id2-LQBJem-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="252" y="808" as="sourcePoint" />
+            <mxPoint x="251.5" y="425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
