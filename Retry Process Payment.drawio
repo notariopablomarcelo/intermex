@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T16:59:14.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="AAi7c3__OgfLjDM_cA60" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T20:34:28.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="YAkER_sVbjezEF4ch20Q" version="23.1.0" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
-    <mxGraphModel dx="3193" dy="1220" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3122" dy="1071" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -843,6 +843,15 @@
           <mxGeometry x="-0.1062" y="-1" relative="1" as="geometry">
             <mxPoint x="80" y="-14" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-26" value="Verificar nueva forma de contar los reintentos por si la tabla de logs pueda tener demasiados registros" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="996" y="36" width="298" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-27" value="Actualiza el bridge cundo el wire es correcto y coloca en done = 1" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="943" y="-231" width="298" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-28" value="2 escenarios donde se cancela el wire: intentos maximos y reject de cybersource" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="994" y="97" width="298" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
