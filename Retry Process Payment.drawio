@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T14:08:25.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5UhHl_-El3jUU26yPwlp" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T14:11:40.316Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="slxsoBPOpj5f6HzURoye" version="23.1.0" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="2634" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
             <mxPoint x="648" y="66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ib3yN-KZ3-Id2-LQBJem-29" value="List WPP Pending" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-29" value="List WPP" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="359.0025718912261" y="223.99545525044994" as="geometry" />
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-30" value="Done" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -720,7 +720,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-164" value="WDE&lt;br&gt;WirePendingPaymentRetryLog" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="1367" y="335.5" width="178" height="88" as="geometry" />
+          <mxGeometry x="1292" y="336" width="178" height="88" as="geometry" />
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-165" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="ib3yN-KZ3-Id2-LQBJem-147" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -750,7 +750,35 @@
         </mxCell>
         <mxCell id="bnij_Gw7AZlGsP0H0JbA-2" value="List&amp;nbsp;WirePendingPaymentRetryLog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-1">
           <mxGeometry x="-0.1905" y="-2" relative="1" as="geometry">
-            <mxPoint x="71" y="-17" as="offset" />
+            <mxPoint x="28" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-1" target="bnij_Gw7AZlGsP0H0JbA-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="613" y="427" as="sourcePoint" />
+            <mxPoint x="760" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-6" value="List WPP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-4">
+          <mxGeometry x="0.7379" relative="1" as="geometry">
+            <mxPoint x="22" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-5" value="Se guarda en una lista de entidades de tipo&amp;nbsp;WirePendingPayment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="812" y="458" width="282" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-7" value="WDE&lt;br&gt;WiresPendingPayment" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="444.5" width="178" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bnij_Gw7AZlGsP0H0JbA-5" target="bnij_Gw7AZlGsP0H0JbA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1052" y="427" as="sourcePoint" />
+            <mxPoint x="1102" y="377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-10" value="List WPP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-8">
+          <mxGeometry x="-0.1062" y="-1" relative="1" as="geometry">
+            <mxPoint x="80" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
