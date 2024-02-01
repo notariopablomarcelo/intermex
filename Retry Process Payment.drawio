@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T14:18:25.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="FAuVs1FPfmTCsyAG90nx" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T14:21:27.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4uCPomj3PbZbkwM6iG_P" version="23.1.0" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="2703" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -288,7 +288,7 @@
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-57" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="bnij_Gw7AZlGsP0H0JbA-13" target="ib3yN-KZ3-Id2-LQBJem-52" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1015" y="2374" as="sourcePoint" />
+            <mxPoint x="1015" y="2339" as="sourcePoint" />
             <mxPoint x="1052" y="348" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -713,7 +713,7 @@
             <mxPoint x="1085" y="2071" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ib3yN-KZ3-Id2-LQBJem-147" value="WirePendingPaymentRetryLog&lt;br&gt;ProcessPayemntResponse" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="bnij_Gw7AZlGsP0H0JbA-13" vertex="1">
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-147" value="&lt;b&gt;&lt;font color=&quot;#0066cc&quot;&gt;WirePendingPaymentRetryLog&lt;/font&gt;&lt;/b&gt;&lt;br&gt;ProcessPayemntResponse" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="bnij_Gw7AZlGsP0H0JbA-13" vertex="1">
           <mxGeometry x="1082" y="2455" width="185" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-148" value="&lt;span style=&quot;text-align: left;&quot;&gt;wirePendingPaymentStatusId = Processed&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="bnij_Gw7AZlGsP0H0JbA-13" vertex="1">
@@ -744,14 +744,14 @@
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-155" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="bnij_Gw7AZlGsP0H0JbA-13" target="ib3yN-KZ3-Id2-LQBJem-150" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1332" y="2372" as="sourcePoint" />
+            <mxPoint x="1332" y="2335" as="sourcePoint" />
             <mxPoint x="1143" y="2332" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-156" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="bnij_Gw7AZlGsP0H0JbA-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1014" y="2373" as="sourcePoint" />
-            <mxPoint x="1333" y="2373" as="targetPoint" />
+            <mxPoint x="1015" y="2334" as="sourcePoint" />
+            <mxPoint x="1334" y="2334" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-158" value="WS&lt;br&gt;WebApi_ReferredUserPromoCode" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="bnij_Gw7AZlGsP0H0JbA-13" vertex="1">
@@ -783,11 +783,14 @@
             <mxPoint x="764" y="2232" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ib3yN-KZ3-Id2-LQBJem-165" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="bnij_Gw7AZlGsP0H0JbA-13" target="ib3yN-KZ3-Id2-LQBJem-147" edge="1">
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-165" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="bnij_Gw7AZlGsP0H0JbA-13" target="ib3yN-KZ3-Id2-LQBJem-147" edge="1" source="bnij_Gw7AZlGsP0H0JbA-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1175" y="2373" as="sourcePoint" />
             <mxPoint x="1376" y="2551" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-17" value="Añadir a la lista de Wires el wire procesado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bnij_Gw7AZlGsP0H0JbA-13">
+          <mxGeometry x="1114.5" y="2373" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="bnij_Gw7AZlGsP0H0JbA-14" source="ib3yN-KZ3-Id2-LQBJem-50" target="ib3yN-KZ3-Id2-LQBJem-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -802,6 +805,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="241" y="650" as="sourcePoint" />
             <mxPoint x="313" y="449" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bnij_Gw7AZlGsP0H0JbA-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-383" y="2714" as="sourcePoint" />
+            <mxPoint x="-204" y="2763" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-383" y="2735" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
