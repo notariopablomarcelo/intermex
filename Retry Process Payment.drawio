@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T14:21:27.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4uCPomj3PbZbkwM6iG_P" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T14:23:51.962Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="UeLVnN-uxzK9FflxGd1Y" version="23.1.0" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="2703" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -814,6 +814,34 @@
             <Array as="points">
               <mxPoint x="-383" y="2735" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-19" value="Se guarda en una lista de entidades de tipo&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#0066cc&quot;&gt;Wires&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="592" width="282" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bnij_Gw7AZlGsP0H0JbA-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="242" y="622" as="sourcePoint" />
+            <mxPoint x="499" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-22" value="List Wires" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-21">
+          <mxGeometry x="0.7379" relative="1" as="geometry">
+            <mxPoint x="-6" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-23" value="WDE&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="578" width="178" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bnij_Gw7AZlGsP0H0JbA-19" target="bnij_Gw7AZlGsP0H0JbA-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="781" y="540" as="sourcePoint" />
+            <mxPoint x="1016" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-25" value="List Wires" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-24">
+          <mxGeometry x="-0.1062" y="-1" relative="1" as="geometry">
+            <mxPoint x="80" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
