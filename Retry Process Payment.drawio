@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T14:26:50.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Q3gcLH5tdzMxSn7kZZbq" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T14:27:06.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jLUI7KOYtiuAYGQpVcci" version="23.1.0" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="3193" dy="1220" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
             <mxPoint x="-162" y="-36" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ib3yN-KZ3-Id2-LQBJem-7" value="WPP = Wires Pending Payment&lt;br&gt;&lt;br&gt;Actualiza los WPP al estado &lt;font color=&quot;#009900&quot;&gt;&lt;b&gt;Cancelado &lt;/b&gt;&lt;/font&gt;los que tengan la cantidad de reintentos indicado en el parámetro RetriesUntilCancel&lt;br&gt;&lt;br&gt;Actualiza los WPP al estado Pending los que están en estado &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;Unavailable &lt;/font&gt;&lt;/b&gt;y el ProcessedWire asociado tiene Done = 1&lt;br&gt;&lt;br&gt;Obtiene los WPP en estado Pending&lt;br&gt;&lt;br&gt;Actualiza al estado In Process los WPP en Pending&lt;br&gt;&lt;br&gt;Retorna los WPP en Pending&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-7" value="WPP = Wires Pending Payment&lt;br&gt;&lt;br&gt;Actualiza los WPP al estado &lt;font color=&quot;#009900&quot;&gt;&lt;b&gt;Cancelado &lt;/b&gt;&lt;/font&gt;los que tengan la cantidad de reintentos indicado en el parámetro RetriesUntilCancel&lt;br&gt;&lt;br&gt;Actualiza los WPP al estado &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;Pending &lt;/font&gt;&lt;/b&gt;los que están en estado &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;Unavailable &lt;/font&gt;&lt;/b&gt;y el ProcessedWire asociado tiene Done = 1&lt;br&gt;&lt;br&gt;Obtiene los WPP en estado Pending&lt;br&gt;&lt;br&gt;Actualiza al estado In Process los WPP en Pending&lt;br&gt;&lt;br&gt;Retorna los WPP en Pending&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="603" y="41" width="303" height="233" as="geometry" />
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-8" value="WDE&lt;br&gt;WiresPendingPayment" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
