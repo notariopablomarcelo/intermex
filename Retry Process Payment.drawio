@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T18:44:31.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="aVIbIpSL261_b_nTzGyz" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T18:45:06.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="N42JsatBnMV959mRJ2Aj" version="23.1.1" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="5362" dy="1577" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1013,9 +1013,9 @@
         <mxCell id="kQLWaQK1pzuxc9twL3pg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kQLWaQK1pzuxc9twL3pg-1" target="kQLWaQK1pzuxc9twL3pg-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kQLWaQK1pzuxc9twL3pg-10" value="List Payment Pending" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kQLWaQK1pzuxc9twL3pg-9">
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-10" value="List Payment Pending + Extra data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kQLWaQK1pzuxc9twL3pg-9">
           <mxGeometry x="-0.1304" y="3" relative="1" as="geometry">
-            <mxPoint x="56" y="5" as="offset" />
+            <mxPoint x="91" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-1" value="Obtener datos necesarios desde el SP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
