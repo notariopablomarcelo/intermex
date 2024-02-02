@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T00:15:54.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ycGMGhNQFVln9QhXA7tH" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T15:09:26.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2YAOm9qy1HG8MrHrP1Z3" version="23.1.0" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
-    <mxGraphModel dx="3704" dy="1471" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3995" dy="1443" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
             <mxPoint x="882" y="-304" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ib3yN-KZ3-Id2-LQBJem-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1" target="ib3yN-KZ3-Id2-LQBJem-32">
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="ib3yN-KZ3-Id2-LQBJem-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="241" y="311" as="sourcePoint" />
             <mxPoint x="208.5" y="347" as="targetPoint" />
@@ -146,7 +146,7 @@
             <mxPoint x="735" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-3" value="List&amp;nbsp;WirePendingPaymentRetryLog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib3yN-KZ3-Id2-LQBJem-166">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-3" value="List&amp;nbsp;WirePendingPaymentRetryLog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ib3yN-KZ3-Id2-LQBJem-166" vertex="1" connectable="0">
           <mxGeometry x="0.1316" y="1" relative="1" as="geometry">
             <mxPoint x="13" y="-12" as="offset" />
           </mxGeometry>
@@ -154,63 +154,63 @@
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-168" value="Se guarda en una lista de entidades logs de tipo&amp;nbsp;&lt;br&gt;&lt;font color=&quot;#0066cc&quot;&gt;&lt;b&gt;WirePendingPaymentRetryLog&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="489" y="389" width="282" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-168" target="ib3yN-KZ3-Id2-LQBJem-164">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ib3yN-KZ3-Id2-LQBJem-168" target="ib3yN-KZ3-Id2-LQBJem-164" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="717" y="527" as="sourcePoint" />
             <mxPoint x="767" y="477" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-2" value="List&amp;nbsp;WirePendingPaymentRetryLog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-2" value="List&amp;nbsp;WirePendingPaymentRetryLog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bnij_Gw7AZlGsP0H0JbA-1" vertex="1" connectable="0">
           <mxGeometry x="-0.1905" y="-2" relative="1" as="geometry">
             <mxPoint x="28" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bnij_Gw7AZlGsP0H0JbA-5">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="bnij_Gw7AZlGsP0H0JbA-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="242" y="520" as="sourcePoint" />
             <mxPoint x="760" y="464" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-6" value="List WPP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-4">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-6" value="List WPP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bnij_Gw7AZlGsP0H0JbA-4" vertex="1" connectable="0">
           <mxGeometry x="0.7379" relative="1" as="geometry">
             <mxPoint x="-6" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-5" value="Se guarda en una lista de entidades de tipo&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#0066cc&quot;&gt;WirePendingPayment&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-5" value="Se guarda en una lista de entidades de tipo&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#0066cc&quot;&gt;WirePendingPayment&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="489" y="488" width="282" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-7" value="WDE&lt;br&gt;WiresPendingPayment" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-7" value="WDE&lt;br&gt;WiresPendingPayment" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1006" y="474" width="178" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bnij_Gw7AZlGsP0H0JbA-5" target="bnij_Gw7AZlGsP0H0JbA-7">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bnij_Gw7AZlGsP0H0JbA-5" target="bnij_Gw7AZlGsP0H0JbA-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1052" y="427" as="sourcePoint" />
             <mxPoint x="1102" y="377" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-10" value="List WPP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-8">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-10" value="List WPP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bnij_Gw7AZlGsP0H0JbA-8" vertex="1" connectable="0">
           <mxGeometry x="-0.1062" y="-1" relative="1" as="geometry">
             <mxPoint x="80" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-32">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="ib3yN-KZ3-Id2-LQBJem-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="453" y="427" as="sourcePoint" />
             <mxPoint x="243" y="338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-12" value="WirePendingPaymentRetryLog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-11">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-12" value="WirePendingPaymentRetryLog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bnij_Gw7AZlGsP0H0JbA-11" vertex="1" connectable="0">
           <mxGeometry x="0.0861" y="1" relative="1" as="geometry">
             <mxPoint x="83" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-14" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-14" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-1558" y="297" width="1790.5" height="2567" as="geometry" />
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-32" value="Method&lt;br&gt;RetryPaymentsAsync" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="bnij_Gw7AZlGsP0H0JbA-14" vertex="1">
           <mxGeometry x="1218" width="218" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-13" value="" style="group" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-14">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-13" value="" style="group" parent="bnij_Gw7AZlGsP0H0JbA-14" vertex="1" connectable="0">
           <mxGeometry y="82" width="1749.5" height="2485" as="geometry" />
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-33" value="WDE&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="bnij_Gw7AZlGsP0H0JbA-13" vertex="1">
@@ -783,13 +783,13 @@
             <mxPoint x="764" y="2232" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ib3yN-KZ3-Id2-LQBJem-165" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="bnij_Gw7AZlGsP0H0JbA-13" target="ib3yN-KZ3-Id2-LQBJem-147" edge="1" source="bnij_Gw7AZlGsP0H0JbA-17">
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-165" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="bnij_Gw7AZlGsP0H0JbA-13" source="bnij_Gw7AZlGsP0H0JbA-17" target="ib3yN-KZ3-Id2-LQBJem-147" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1175" y="2373" as="sourcePoint" />
             <mxPoint x="1376" y="2551" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-17" value="Añadir a la lista de Wires el wire procesado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bnij_Gw7AZlGsP0H0JbA-13">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-17" value="Añadir a la lista de Wires el wire procesado" style="rounded=1;whiteSpace=wrap;html=1;" parent="bnij_Gw7AZlGsP0H0JbA-13" vertex="1">
           <mxGeometry x="1114.5" y="2373" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="bnij_Gw7AZlGsP0H0JbA-14" source="ib3yN-KZ3-Id2-LQBJem-50" target="ib3yN-KZ3-Id2-LQBJem-32" edge="1">
@@ -801,13 +801,13 @@
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-36" value="WirePendingPayment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="bnij_Gw7AZlGsP0H0JbA-14" vertex="1">
           <mxGeometry x="1667" y="-11" width="123.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ib3yN-KZ3-Id2-LQBJem-1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ib3yN-KZ3-Id2-LQBJem-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="241" y="650" as="sourcePoint" />
             <mxPoint x="313" y="449" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bnij_Gw7AZlGsP0H0JbA-17">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="bnij_Gw7AZlGsP0H0JbA-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-383" y="2714" as="sourcePoint" />
             <mxPoint x="-204" y="2763" as="targetPoint" />
@@ -816,100 +816,216 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-19" value="Se guarda en una lista de entidades de tipo&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#0066cc&quot;&gt;Wires&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-19" value="Se guarda en una lista de entidades de tipo&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#0066cc&quot;&gt;Wires&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="489" y="592" width="282" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bnij_Gw7AZlGsP0H0JbA-19">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="bnij_Gw7AZlGsP0H0JbA-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="242" y="622" as="sourcePoint" />
             <mxPoint x="499" y="528" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-22" value="List Wires" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-21">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-22" value="List Wires" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bnij_Gw7AZlGsP0H0JbA-21" vertex="1" connectable="0">
           <mxGeometry x="0.7379" relative="1" as="geometry">
             <mxPoint x="-6" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-23" value="WDE&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-23" value="WDE&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1006" y="578" width="178" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bnij_Gw7AZlGsP0H0JbA-19" target="bnij_Gw7AZlGsP0H0JbA-23">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bnij_Gw7AZlGsP0H0JbA-19" target="bnij_Gw7AZlGsP0H0JbA-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="781" y="540" as="sourcePoint" />
             <mxPoint x="1016" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-25" value="List Wires" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-24">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-25" value="List Wires" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bnij_Gw7AZlGsP0H0JbA-24" vertex="1" connectable="0">
           <mxGeometry x="-0.1062" y="-1" relative="1" as="geometry">
             <mxPoint x="80" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-26" value="Verificar nueva forma de contar los reintentos por si la tabla de logs pueda tener demasiados registros" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-26" value="Verificar nueva forma de contar los reintentos por si la tabla de logs pueda tener demasiados registros" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="996" y="36" width="298" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-27" value="Actualiza el bridge cundo el wire es correcto y coloca en done = 1" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-27" value="Actualiza el bridge cundo el wire es correcto y coloca en done = 1" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="943" y="-231" width="298" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-28" value="2 escenarios donde se cancela el wire: intentos maximos y reject de cybersource" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-28" value="2 escenarios donde se cancela el wire: intentos maximos y reject de cybersource" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="994" y="97" width="298" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-30" value="En alguna parte del proceso, se crea el registro en la tabla ProcessedWires con el WireId igual al WireDataEntry del WireInPreparation y el resto de los campos en null.&lt;br&gt;&lt;br&gt;Cuando el bridge procesa el Wire y si es exitoso, toma el valor del campo control del wire y lo coloca dentro de la tabla de ProcessedWires, además coloca el campo Done = 1 ( indica que el wire fue procesado y listo para procesar el pago )" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-30" value="En alguna parte del proceso, se crea el registro en la tabla ProcessedWires con el WireId igual al WireDataEntry del WireInPreparation y el resto de los campos en null.&lt;br&gt;&lt;br&gt;Cuando el bridge procesa el Wire y si es exitoso, toma el valor del campo control del wire y lo coloca dentro de la tabla de ProcessedWires, además coloca el campo Done = 1 ( indica que el wire fue procesado y listo para procesar el pago )" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="721" y="-700" width="421" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-31" value="Bridge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-31" value="Bridge" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="729" y="-549" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-32" value="WDE&lt;br&gt;WebAgent_WireInPreparation" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-32" value="WDE&lt;br&gt;WebAgent_WireInPreparation" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="354" y="-535" width="215" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-33" value="WireDataEntryId" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-33" value="WireDataEntryId" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="554" y="-421" width="103" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" source="bnij_Gw7AZlGsP0H0JbA-33" target="bnij_Gw7AZlGsP0H0JbA-32">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" parent="1" source="bnij_Gw7AZlGsP0H0JbA-33" target="bnij_Gw7AZlGsP0H0JbA-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="979" y="-311" as="sourcePoint" />
             <mxPoint x="1029" y="-361" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-16" target="bnij_Gw7AZlGsP0H0JbA-33">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ib3yN-KZ3-Id2-LQBJem-16" target="bnij_Gw7AZlGsP0H0JbA-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="708" y="-345" as="sourcePoint" />
             <mxPoint x="758" y="-395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;align=left;" edge="1" parent="1" source="bnij_Gw7AZlGsP0H0JbA-31" target="ib3yN-KZ3-Id2-LQBJem-12">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;align=left;" parent="1" source="bnij_Gw7AZlGsP0H0JbA-31" target="ib3yN-KZ3-Id2-LQBJem-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="979" y="-311" as="sourcePoint" />
             <mxPoint x="1029" y="-361" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-37" value="Crea con el campo WireId del WireInPreparation&lt;br&gt;Además coloca el valor del campo Control de la tabla de Wires" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-36">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-37" value="Crea con el campo WireId del WireInPreparation&lt;br&gt;Además coloca el valor del campo Control de la tabla de Wires" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="bnij_Gw7AZlGsP0H0JbA-36" vertex="1" connectable="0">
           <mxGeometry x="-0.3357" relative="1" as="geometry">
             <mxPoint x="3" y="-45" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-38" value="WT&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-38" value="WT&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1142" y="-500" width="87" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bnij_Gw7AZlGsP0H0JbA-31" target="bnij_Gw7AZlGsP0H0JbA-38">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bnij_Gw7AZlGsP0H0JbA-31" target="bnij_Gw7AZlGsP0H0JbA-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1044" y="-504" as="sourcePoint" />
             <mxPoint x="1094" y="-554" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-41" value="Lee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnij_Gw7AZlGsP0H0JbA-40">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-41" value="Lee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bnij_Gw7AZlGsP0H0JbA-40" vertex="1" connectable="0">
           <mxGeometry x="-0.4501" y="2" relative="1" as="geometry">
             <mxPoint x="13" y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="ib3yN-KZ3-Id2-LQBJem-26" target="bnij_Gw7AZlGsP0H0JbA-38">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="ib3yN-KZ3-Id2-LQBJem-26" target="bnij_Gw7AZlGsP0H0JbA-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="875" y="-408" as="sourcePoint" />
             <mxPoint x="925" y="-458" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-43" value="Wires&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;CrmPromotionId&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;SenderPaymentMethodId&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;// Se usa para definir si es ACH o no&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;UserPaymentMethodInfoId&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;PinNumber&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Total = &lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;OriAmount&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Charges&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;DiscountAmount&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;OriCurrency&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;WebAgentUserId&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;AgSenderCode&lt;br&gt;ProcessedWires&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Control&lt;br&gt;CrmPromotion&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;PromoCode&lt;br&gt;WebAgent_UserPaymentMethodInfo&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;GatewayToken&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;StatementState&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;StatementCity&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;StatementAddress&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;StatementZipCode&lt;br&gt;Senders&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;SndFirstName&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;SndLast1&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;SndEmail&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;SndPhone&lt;br&gt;States&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;StateAbbr&lt;br&gt;Agencies&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;LegalEntityCode&lt;br&gt;WebApi_LegalEntityCybersourceMerchantId&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;CybersourceMid&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Secret&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Key&lt;br&gt;WebApi_ReferredUserPromoCode&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    IsReferred&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-2133" y="1535" width="488" height="642" as="geometry" />
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-43" value="Wires&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;CrmPromotionId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// Se obtiene ( 2 )&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;SenderPaymentMethodId&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;// Se usa para definir si es ACH o no&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;UserPaymentMethodInfoId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// Se obtiene ( 3 )&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;PinNumber&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Total = &lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;OriAmount&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Charges&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;DiscountAmount&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;OriCurrency&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;WebAgentUserId&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// Se obtiene ( 4 )&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// Se obtiene ( 8 )&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;AgSenderCode&lt;br&gt;( 1 ) ProcessedWires&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Control&lt;br&gt;( 2 ) CrmPromotion&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;PromoCode&lt;br&gt;( 3 ) WebAgent_UserPaymentMethodInfo&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;GatewayToken&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;StatementState&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;StatementCity&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;StatementAddress&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;StatementZipCode&lt;br&gt;( 4 ) Senders&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;SndFirstName&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;SndLast1&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;SndEmail&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;SndPhone&lt;br&gt;( 5 ) States&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;StateAbbr&lt;br&gt;( 6 ) Agencies&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;LegalEntityCode&lt;br&gt;( 7 ) WebApi_LegalEntityCybersourceMerchantId&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;CybersourceMid&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Secret&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Key&lt;br&gt;( 8 ) WebApi_ReferredUserPromoCode&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    IsReferred&lt;br/&gt;    // Se hace una actualización de esa entity&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-2038" y="805" width="488" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-125" value="UpdateMGMPromotion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2034" y="2333" width="163" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-126" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="GP_RzD56ewEmPPOaiyAd-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1952" y="2854" as="sourcePoint" />
+            <mxPoint x="-1512" y="2378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-127" value="WS&lt;br&gt;WebApi_ReferredUserPromoCode" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-2415" y="2458" width="206" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-129" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" edge="1" parent="1" target="GP_RzD56ewEmPPOaiyAd-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1951" y="2485" as="sourcePoint" />
+            <mxPoint x="-2147" y="2395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-130" value="CrmPromotion PromoCode&lt;br&gt;webAgentUserId" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GP_RzD56ewEmPPOaiyAd-129">
+          <mxGeometry x="0.4718" y="1" relative="1" as="geometry">
+            <mxPoint x="-56" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-131" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="1" source="GP_RzD56ewEmPPOaiyAd-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1703" y="2428" as="sourcePoint" />
+            <mxPoint x="-1953" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-132" value="WebApi_ReferredUserPromoCode&lt;br&gt;promo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GP_RzD56ewEmPPOaiyAd-131">
+          <mxGeometry x="0.4114" y="-4" relative="1" as="geometry">
+            <mxPoint x="-17" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-133" value="WS&lt;br&gt;WebApi_ReferredUserEvents" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-2415" y="2631" width="206" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-135" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" edge="1" parent="1" target="GP_RzD56ewEmPPOaiyAd-133">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1952" y="2659" as="sourcePoint" />
+            <mxPoint x="-2199" y="2544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-136" value="promo webAgentUserId" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GP_RzD56ewEmPPOaiyAd-135">
+          <mxGeometry x="0.4718" y="1" relative="1" as="geometry">
+            <mxPoint x="-58" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-137" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="1" source="GP_RzD56ewEmPPOaiyAd-133">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2199" y="2569" as="sourcePoint" />
+            <mxPoint x="-1952" y="2684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-138" value="list events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GP_RzD56ewEmPPOaiyAd-137">
+          <mxGeometry x="0.4114" y="-4" relative="1" as="geometry">
+            <mxPoint x="36" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-142" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" target="GP_RzD56ewEmPPOaiyAd-133">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1952" y="2781" as="sourcePoint" />
+            <mxPoint x="-2067" y="2832" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1952" y="2779" />
+              <mxPoint x="-2239" y="2779" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-143" value="update events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GP_RzD56ewEmPPOaiyAd-142">
+          <mxGeometry x="-0.6995" y="-3" relative="1" as="geometry">
+            <mxPoint x="15" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-144" value="for each event&lt;br&gt;event. control = control" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1877" y="2718" width="188" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-145" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="GP_RzD56ewEmPPOaiyAd-144">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1951" y="2748" as="sourcePoint" />
+            <mxPoint x="-2067" y="2832" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-146" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GP_RzD56ewEmPPOaiyAd-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1952" y="2232" as="sourcePoint" />
+            <mxPoint x="-2067" y="2367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-147" value="WebAgentUserId&lt;br&gt;Status" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1946" y="2287" width="162" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-148" value="set new values to promo&lt;br&gt;StatusPromoCode = status&lt;br&gt;UseDate = New&lt;br&gt;Control = control" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1881" y="2531" width="188" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-149" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="GP_RzD56ewEmPPOaiyAd-148">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1951" y="2561" as="sourcePoint" />
+            <mxPoint x="-1886" y="2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-150" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" target="GP_RzD56ewEmPPOaiyAd-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1955" y="2616" as="sourcePoint" />
+            <mxPoint x="-2242" y="2542" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1955" y="2614" />
+              <mxPoint x="-2239" y="2614" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-151" value="update promo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GP_RzD56ewEmPPOaiyAd-150">
+          <mxGeometry x="-0.6995" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="-8" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
