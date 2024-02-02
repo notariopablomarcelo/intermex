@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T15:10:02.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="9fZXoDix4yxHne0Oq6BK" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T15:18:09.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4Ao2F1n9TdKYpC3XjVpf" version="23.1.0" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="4234" dy="1572" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -983,7 +983,7 @@
             <mxPoint x="348" y="96" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GP_RzD56ewEmPPOaiyAd-147" value="WebAgentUserId&lt;br&gt;Status" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GP_RzD56ewEmPPOaiyAd-152">
+        <mxCell id="GP_RzD56ewEmPPOaiyAd-147" value="WebAgentUserId&lt;br&gt;Status = IN PROCESS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GP_RzD56ewEmPPOaiyAd-152">
           <mxGeometry x="469" y="16" width="162" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GP_RzD56ewEmPPOaiyAd-148" value="set new values to promo&lt;br&gt;StatusPromoCode = status&lt;br&gt;UseDate = New&lt;br&gt;Control = control" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GP_RzD56ewEmPPOaiyAd-152">
