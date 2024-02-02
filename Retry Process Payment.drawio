@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T16:28:07.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Eytww_VLk1fsXb-UfABV" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T17:49:50.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="cKAVLXuZKoR6Tef8Dqdl" version="23.1.1" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="4474" dy="1538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1010,8 +1010,16 @@
             <mxPoint x="3" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kQLWaQK1pzuxc9twL3pg-1" value="Obtener datos para armar el request hacia cybersource" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2599" y="805" width="305" height="60" as="geometry" />
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kQLWaQK1pzuxc9twL3pg-1" target="kQLWaQK1pzuxc9twL3pg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-10" value="List Payment Pending" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kQLWaQK1pzuxc9twL3pg-9">
+          <mxGeometry x="-0.1304" y="3" relative="1" as="geometry">
+            <mxPoint x="56" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-1" value="Obtener datos necesarios desde el SP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2642" y="830" width="305" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-2" value="Control" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="994" y="-414" width="78" height="44" as="geometry" />
@@ -1032,6 +1040,32 @@
           <mxGeometry x="-0.4501" y="2" relative="1" as="geometry">
             <mxPoint x="13" y="-24" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kQLWaQK1pzuxc9twL3pg-6" target="kQLWaQK1pzuxc9twL3pg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-6" value="Llamar a Cybersource" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2642" y="1167" width="305" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-7" value="Analizar el response code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2642" y="1273" width="305" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kQLWaQK1pzuxc9twL3pg-8" target="kQLWaQK1pzuxc9twL3pg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-13" value="Payment Pending Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kQLWaQK1pzuxc9twL3pg-12">
+          <mxGeometry x="-0.24" y="1" relative="1" as="geometry">
+            <mxPoint x="61" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-8" value="Tomar un Payment Pending Process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2642" y="950" width="305" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kQLWaQK1pzuxc9twL3pg-11" target="kQLWaQK1pzuxc9twL3pg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-11" value="Armar request para Cybersource" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2642" y="1060" width="305" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
