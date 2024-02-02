@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T16:27:08.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="DsgEuLdtHOHLizgfQ_mz" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T16:28:07.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Eytww_VLk1fsXb-UfABV" version="23.1.1" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
     <mxGraphModel dx="4474" dy="1538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -863,7 +863,7 @@
             <mxPoint x="1029" y="-361" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-37" value="Crea con el campo WireId del WireInPreparation&lt;br&gt;Además coloca el valor del campo Control de la tabla de Wires" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="bnij_Gw7AZlGsP0H0JbA-36" vertex="1" connectable="0">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-37" value="Crea con el campo &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;WireId&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Control&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Done = 1" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="bnij_Gw7AZlGsP0H0JbA-36" vertex="1" connectable="0">
           <mxGeometry x="-0.3357" relative="1" as="geometry">
             <mxPoint x="3" y="-45" as="offset" />
           </mxGeometry>
@@ -1020,6 +1020,17 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="910" y="-342" as="sourcePoint" />
             <mxPoint x="1152" y="-419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bnij_Gw7AZlGsP0H0JbA-31" target="bnij_Gw7AZlGsP0H0JbA-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="859" y="-524" as="sourcePoint" />
+            <mxPoint x="1152" y="-447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-5" value="Lee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kQLWaQK1pzuxc9twL3pg-4">
+          <mxGeometry x="-0.4501" y="2" relative="1" as="geometry">
+            <mxPoint x="13" y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
