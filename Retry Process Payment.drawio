@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T20:43:46.046Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Y76soEVtlPl65-sHx0r9" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T21:34:29.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="36yzg1acZRPjwgJx1uRQ" version="23.1.2" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
-    <mxGraphModel dx="5274" dy="1538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="5034" dy="1538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1138,6 +1138,9 @@
         </mxCell>
         <mxCell id="vHaciNbMpVmOE82EnXYs-1" value="Actualizar las entities de asociados de los models." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2644" y="1685" width="309" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vHaciNbMpVmOE82EnXYs-4" value="&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;SP: [ WireDataEntry ] [ GetPendingPayment_v2 ]&lt;/span&gt;&lt;br&gt;&lt;br&gt;1 Cambia al estado &quot;Pending&quot; los WPP que están en estado &quot;Unavailable&quot; y el ProcessedWire Done = 1&lt;br&gt;&lt;br&gt;2 Selecciona los N WPP&amp;nbsp; en estado &quot;Pending&quot; según el parámetro MaxPendingPaymentToSelect&lt;br&gt;&lt;br&gt;3 Cambia esos N WPP al estado &quot;In Process&quot;&lt;br&gt;&lt;br&gt;4 Retorna los N WPP del estado &quot;In Process&quot;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-766" y="-400" width="361" height="216" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
