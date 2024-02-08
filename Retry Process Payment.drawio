@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T17:21:15.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2waCEmnjbwt1ijw5SsWW" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T19:29:44.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GWI7oC9EYXq2jvqS600q" version="23.1.2" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
-    <mxGraphModel dx="5034" dy="1538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="5274" dy="1538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vHaciNbMpVmOE82EnXYs-2" value="Unit Of Work" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-2666" y="1648" width="351" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-28" value="N veces" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="-2706" y="934" width="421" height="658" as="geometry" />
+        </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-37" value="N veces" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="53" y="270" width="198" height="95" as="geometry" />
         </mxCell>
@@ -1038,7 +1044,7 @@
         <mxCell id="kQLWaQK1pzuxc9twL3pg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kQLWaQK1pzuxc9twL3pg-7" target="kQLWaQK1pzuxc9twL3pg-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kQLWaQK1pzuxc9twL3pg-7" value="Analizar el response code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-7" value="Analizar el response" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2642" y="1273" width="305" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kQLWaQK1pzuxc9twL3pg-8" target="kQLWaQK1pzuxc9twL3pg-11" edge="1">
@@ -1059,15 +1065,15 @@
           <mxGeometry x="-2642" y="1060" width="305" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-16" value="&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Al final del Proceso se debe actualizar las tablas de:&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;WiresPendingPayment ( 1 )&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;WirePendingPaymentRetryLog ( 2 )&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Wires ( 3 )&lt;br&gt;&lt;br&gt;Qué se modifica en cada iteración respecto a estas listas?&lt;br&gt;( 1 )&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;WirePendingPaymentStatusId&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Pending = 2&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Rejected = 6&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Processed = 5&lt;/blockquote&gt;( 2 )&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;HttpResponseCode&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;// Dependiendo de la respuesta de Cybersource puede ser:&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;ServiceUnavailable&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;InternalServerError&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Ok&lt;/blockquote&gt;( 3 )&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;StsSenderPaymentOk&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Coloca en true cuando cybersource da una respuesta buena ( Authorized o Collected )&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Falta actualizar el estado del wire cuando es cancelado" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-3301" y="1519" width="538" height="358" as="geometry" />
+          <mxGeometry x="-3351" y="1366" width="538" height="358" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kQLWaQK1pzuxc9twL3pg-17" target="kQLWaQK1pzuxc9twL3pg-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kQLWaQK1pzuxc9twL3pg-17" value="Actualizar las entities de PendingPayment, RetryLogs y Wires dependiendo del Response Code de Cybersource" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-17" value="Actualizar los models asociados de PendingPayment, RetryLogs, Wires, ReferredUsers y Events dependiendo del Response Code de Cybersource" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2642" y="1383" width="305" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kQLWaQK1pzuxc9twL3pg-19" value="Almacenar en una list esas entities para un posterior actualización masiva luego de la iteración" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-19" value="Almacenar en una list esos models para un posterior actualización masiva luego de la iteración" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2642" y="1506" width="305" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-21" value="StsCancel" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1097,10 +1103,7 @@
             <mxPoint x="855" y="-494" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kQLWaQK1pzuxc9twL3pg-28" value="N veces" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-          <mxGeometry x="-2706" y="934" width="421" height="658" as="geometry" />
-        </mxCell>
-        <mxCell id="kQLWaQK1pzuxc9twL3pg-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kQLWaQK1pzuxc9twL3pg-19" edge="1">
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.504;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kQLWaQK1pzuxc9twL3pg-19" edge="1" target="vHaciNbMpVmOE82EnXYs-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2475" y="1696" as="sourcePoint" />
             <mxPoint x="-2489" y="1643" as="targetPoint" />
@@ -1132,6 +1135,9 @@
             <mxPoint x="694" y="-215" as="sourcePoint" />
             <mxPoint x="744" y="-265" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vHaciNbMpVmOE82EnXYs-1" value="Actualizar las entities de asociados de los models." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2644" y="1685" width="309" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
