@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-09T16:15:14.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="H-SbnCGPjABuznnVF5Dp" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-09T17:35:21.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="QEcPl_5qkxAj9HUYyUJl" version="23.1.2" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
-    <mxGraphModel dx="5034" dy="1538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="5034" dy="1938" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -828,7 +828,7 @@
           <mxGeometry x="994" y="97" width="298" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bnij_Gw7AZlGsP0H0JbA-30" value="En alguna parte del proceso, se crea el registro en la tabla ProcessedWires con el WireId igual al WireDataEntry del WireInPreparation y el resto de los campos en null.&lt;br&gt;&lt;br&gt;Cuando el bridge procesa el Wire y si es exitoso, toma el valor del campo control del wire y lo coloca dentro de la tabla de ProcessedWires, además coloca el campo Done = 1 ( indica que el wire fue procesado y listo para procesar el pago )" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="721" y="-700" width="421" height="126" as="geometry" />
+          <mxGeometry x="603" y="-849" width="421" height="126" as="geometry" />
         </mxCell>
         <mxCell id="bnij_Gw7AZlGsP0H0JbA-31" value="Bridge" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="729" y="-549" width="120" height="60" as="geometry" />
@@ -863,7 +863,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bnij_Gw7AZlGsP0H0JbA-38" value="WT&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="1142" y="-500" width="87" height="86" as="geometry" />
+          <mxGeometry x="989.5" y="-552" width="87" height="86" as="geometry" />
         </mxCell>
         <mxCell id="bnij_Gw7AZlGsP0H0JbA-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bnij_Gw7AZlGsP0H0JbA-31" target="bnij_Gw7AZlGsP0H0JbA-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1018,7 +1018,7 @@
         <mxCell id="kQLWaQK1pzuxc9twL3pg-2" value="Control" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="994" y="-414" width="78" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="kQLWaQK1pzuxc9twL3pg-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="kQLWaQK1pzuxc9twL3pg-2" target="bnij_Gw7AZlGsP0H0JbA-38" edge="1">
+        <mxCell id="kQLWaQK1pzuxc9twL3pg-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kQLWaQK1pzuxc9twL3pg-2" target="bnij_Gw7AZlGsP0H0JbA-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="910" y="-342" as="sourcePoint" />
             <mxPoint x="1152" y="-419" as="targetPoint" />
@@ -1077,13 +1077,13 @@
           <mxGeometry x="-2642" y="1506" width="305" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-21" value="StsCancel" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="563" y="-615" width="83" height="52" as="geometry" />
+          <mxGeometry x="512" y="-598" width="83" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-22" value="StsSenderPaymentOk" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="411" y="-645" width="144" height="52" as="geometry" />
+          <mxGeometry x="359" y="-604" width="144" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-24" value="CancelReasonId" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="397" y="-561" width="110" height="52" as="geometry" />
+          <mxGeometry x="359" y="-527" width="110" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bnij_Gw7AZlGsP0H0JbA-32" target="kQLWaQK1pzuxc9twL3pg-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1110,7 +1110,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-30" value="CRMPromotionId" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="333" y="-483" width="110" height="52" as="geometry" />
+          <mxGeometry x="336" y="-441" width="110" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bnij_Gw7AZlGsP0H0JbA-32" target="kQLWaQK1pzuxc9twL3pg-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1194,6 +1194,21 @@
         </mxCell>
         <mxCell id="vHaciNbMpVmOE82EnXYs-20" value="WS&lt;br&gt;WebApi_ReferredUserPromoCode" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-782" y="-5" width="252" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="pxFyOGLZIODj5t2-uJmI-1" value="PinNumber" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="638" y="-677" width="83" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="pxFyOGLZIODj5t2-uJmI-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bnij_Gw7AZlGsP0H0JbA-32" target="pxFyOGLZIODj5t2-uJmI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="576" y="-482" as="sourcePoint" />
+            <mxPoint x="564" y="-536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pxFyOGLZIODj5t2-uJmI-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bnij_Gw7AZlGsP0H0JbA-38" target="pxFyOGLZIODj5t2-uJmI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="-515" as="sourcePoint" />
+            <mxPoint x="560" y="-565" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
