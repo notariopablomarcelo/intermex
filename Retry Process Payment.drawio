@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T21:00:02.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="oHRdJqWs8ufE8YLP4Rxb" version="23.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-02T19:18:36.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="RozUBzBa5Z8bTNPzs5o9" version="24.0.0" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
-    <mxGraphModel dx="5362" dy="1977" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="5434" dy="1938" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1371,6 +1371,9 @@
             <mxPoint x="-1753" y="153" as="sourcePoint" />
             <mxPoint x="-1811" y="108" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IW8xeXkj6Kk1W9fjSZH2-1" value="Payments&#xa;POST&#xa;/ api / payment" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://w7.pngwing.com/pngs/834/715/png-transparent-computer-icons-api-text-logo-desktop-wallpaper-thumbnail.png;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-3799" y="-270" width="96" height="96" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
