@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-02T20:05:13.203Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="EqDLesVMmwQqVwIg8bZo" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-02T20:05:57.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="SYTK0PYhlhnRuQmXk7OQ" version="24.0.0" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
-    <mxGraphModel dx="5362" dy="2377" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="5109" dy="2377" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1148,10 +1148,10 @@
             <mxPoint x="954.0027272727275" y="712.0045454545455" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ib3yN-KZ3-Id2-LQBJem-8" value="WDE&lt;br&gt;WiresPendingPayment" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-8" value="WDE&lt;br&gt;WiresPendingPayment" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-2740" y="-750" width="155" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="ib3yN-KZ3-Id2-LQBJem-9" value="WDE&lt;br&gt;WirePendingPaymentRetryLog" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-9" value="WDE&lt;br&gt;WirePendingPaymentRetryLog" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-2751.5" y="-529" width="178" height="88" as="geometry" />
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ib3yN-KZ3-Id2-LQBJem-9" target="ib3yN-KZ3-Id2-LQBJem-8" edge="1">
@@ -1165,7 +1165,7 @@
             <mxPoint x="18" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ib3yN-KZ3-Id2-LQBJem-12" value="WDE&lt;br&gt;ProcessedWires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="ib3yN-KZ3-Id2-LQBJem-12" value="WDE&lt;br&gt;ProcessedWires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-2166.5" y="-1141" width="135" height="88" as="geometry" />
         </mxCell>
         <mxCell id="ib3yN-KZ3-Id2-LQBJem-14" value="WireDataEntryId" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1239,7 +1239,7 @@
             <mxPoint x="3" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-38" value="WT&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-38" value="WT&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-2379.5" y="-1053" width="87" height="86" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" parent="1" source="xP0tqDqqPF0vpHGbjNF--1" target="bnij_Gw7AZlGsP0H0JbA-38" edge="1">
@@ -1305,7 +1305,7 @@
             <mxPoint x="689" y="223" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IW8xeXkj6Kk1W9fjSZH2-4" value="WDE&lt;br&gt;WiresPendingPayment" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="IW8xeXkj6Kk1W9fjSZH2-8" vertex="1">
+        <mxCell id="IW8xeXkj6Kk1W9fjSZH2-4" value="WDE&lt;br&gt;WiresPendingPayment" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="IW8xeXkj6Kk1W9fjSZH2-8" vertex="1">
           <mxGeometry x="582" y="3.5" width="140" height="89" as="geometry" />
         </mxCell>
         <mxCell id="IW8xeXkj6Kk1W9fjSZH2-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="IW8xeXkj6Kk1W9fjSZH2-8" source="IW8xeXkj6Kk1W9fjSZH2-2" target="IW8xeXkj6Kk1W9fjSZH2-4" edge="1">
@@ -1349,7 +1349,7 @@
             <mxPoint x="-1691.5" y="-463" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bnij_Gw7AZlGsP0H0JbA-32" value="WDE&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="bnij_Gw7AZlGsP0H0JbA-32" value="WDE&lt;br&gt;Wires" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-2186" y="-818" width="102" height="86" as="geometry" />
         </mxCell>
         <mxCell id="kQLWaQK1pzuxc9twL3pg-21" value="StsCancel" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
