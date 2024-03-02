@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-02T19:45:01.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="BeK8Zs088IGrpolODutn" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-02T19:45:28.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ON4Su3l0RoAn9K-SYzXk" version="24.0.0" type="github">
   <diagram name="Página-1" id="rmHsDb4b7Zy-fFYQMJHF">
-    <mxGraphModel dx="5056" dy="2242" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="5693" dy="2523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1217,7 +1217,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bnij_Gw7AZlGsP0H0JbA-30" value="En alguna parte del proceso, se crea el registro en la tabla ProcessedWires con el WireId igual al WireDataEntry del WireInPreparation y el resto de los campos en null.&lt;br&gt;&lt;br&gt;Cuando el bridge procesa el Wire y si es exitoso, toma el valor del campo control del wire y lo coloca dentro de la tabla de ProcessedWires, además coloca el campo Done = 1 ( indica que el wire fue procesado y listo para procesar el pago )" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1924" y="-176" width="421" height="126" as="geometry" />
+          <mxGeometry x="-1777" y="-1133" width="421" height="126" as="geometry" />
         </mxCell>
         <mxCell id="bnij_Gw7AZlGsP0H0JbA-31" value="Bridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-2145" y="-1079" width="120" height="60" as="geometry" />
